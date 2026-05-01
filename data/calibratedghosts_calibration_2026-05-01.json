@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-05-01T11:05:40.841598+00:00",
+  "exported_at": "2026-05-01T14:02:38.505952+00:00",
   "source_account": "CalibratedGhosts",
   "source_account_id": "Y2biJCPzfgehpcQXUQoMwXShS6j2",
   "n_records": 93,
@@ -9,7 +9,7 @@
     {
       "market_id": "ENchIURR8A",
       "question": "Price of Gold by the end of April?",
-      "category": "misc",
+      "category": "commodity_price",
       "outcome_bet": "NO",
       "estimate_at_bet": 0.289,
       "market_price_at_bet": 0.321,
@@ -24,7 +24,7 @@
     {
       "market_id": "ENchIURR8A",
       "question": "Price of Gold by the end of April?",
-      "category": "misc",
+      "category": "commodity_price",
       "outcome_bet": "NO",
       "estimate_at_bet": 0.321,
       "market_price_at_bet": 0.349,
@@ -39,7 +39,7 @@
     {
       "market_id": "llt8uhPPRA",
       "question": "Will President Paul Biya of Cameroon appoint a Vice President before April 30, 2026?",
-      "category": "misc",
+      "category": "geopolitics",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.159,
       "market_price_at_bet": 0.0902,
@@ -69,7 +69,7 @@
     {
       "market_id": "UEOEIUEuyu",
       "question": "Will gas hit ___ by end of April?",
-      "category": "misc",
+      "category": "economics",
       "outcome_bet": "NO",
       "estimate_at_bet": 0.744,
       "market_price_at_bet": 0.87,
@@ -84,7 +84,7 @@
     {
       "market_id": "ENchIURR8A",
       "question": "Price of Gold by the end of April?",
-      "category": "misc",
+      "category": "commodity_price",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.203,
       "market_price_at_bet": 0.149,
@@ -114,7 +114,7 @@
     {
       "market_id": "UEOEIUEuyu",
       "question": "Will gas hit ___ by end of April?",
-      "category": "misc",
+      "category": "economics",
       "outcome_bet": "NO",
       "estimate_at_bet": 0.722,
       "market_price_at_bet": 0.8,
@@ -204,7 +204,7 @@
     {
       "market_id": "d6d6zngPcZ",
       "question": "Will the S&P500 be within 1% of all time high at the end of Apr 2026?",
-      "category": "misc",
+      "category": "economics",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.787,
       "market_price_at_bet": 0.642,
@@ -234,7 +234,7 @@
     {
       "market_id": "d6d6zngPcZ",
       "question": "Will the S&P500 be within 1% of all time high at the end of Apr 2026?",
-      "category": "misc",
+      "category": "economics",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.893,
       "market_price_at_bet": 0.79,
@@ -249,7 +249,7 @@
     {
       "market_id": "dNRgU9hUlA",
       "question": "2nd largest company end of April 2026?",
-      "category": "misc",
+      "category": "economics",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.1595,
       "market_price_at_bet": 0.0776,
@@ -264,7 +264,7 @@
     {
       "market_id": "UEOEIUEuyu",
       "question": "Will gas hit ___ by end of April?",
-      "category": "misc",
+      "category": "economics",
       "outcome_bet": "NO",
       "estimate_at_bet": 0.138,
       "market_price_at_bet": 0.142,
@@ -279,7 +279,7 @@
     {
       "market_id": "S2lg9CppuR",
       "question": "3rd largest company end of April 2026?",
-      "category": "misc",
+      "category": "economics",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.1739,
       "market_price_at_bet": 0.0902,
@@ -309,7 +309,7 @@
     {
       "market_id": "S9ynE25Uz0",
       "question": "Will the WTI Crude Oil Spot Price be above $88 on April 30, 2026?",
-      "category": "economics",
+      "category": "commodity_price",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.827,
       "market_price_at_bet": 0.825,
@@ -324,7 +324,7 @@
     {
       "market_id": "dtQRCcupRl",
       "question": "goog ath april?",
-      "category": "misc",
+      "category": "economics",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.2827,
       "market_price_at_bet": 0.1858,
@@ -339,7 +339,7 @@
     {
       "market_id": "Z550ZIUZA2",
       "question": "Will gold close April 2026 above $4,500/oz?",
-      "category": "misc",
+      "category": "commodity_price",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.874,
       "market_price_at_bet": 0.86,
@@ -354,7 +354,7 @@
     {
       "market_id": "sO82POICOd",
       "question": "Will Mojtaba Khamenei be first shown alive on video between April 1st and May 1, 2026?",
-      "category": "misc",
+      "category": "geopolitics",
       "outcome_bet": "NO",
       "estimate_at_bet": 0.144,
       "market_price_at_bet": 0.146,
@@ -399,7 +399,7 @@
     {
       "market_id": "ENchIURR8A",
       "question": "Price of Gold by the end of April?",
-      "category": "misc",
+      "category": "commodity_price",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.526,
       "market_price_at_bet": 0.506,
@@ -444,7 +444,7 @@
     {
       "market_id": "ENchIURR8A",
       "question": "Price of Gold by the end of April?",
-      "category": "misc",
+      "category": "commodity_price",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.5065,
       "market_price_at_bet": 0.47,
@@ -489,7 +489,7 @@
     {
       "market_id": "S9ynE25Uz0",
       "question": "Will the WTI Crude Oil Spot Price be above $88 on April 30, 2026?",
-      "category": "economics",
+      "category": "commodity_price",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.79,
       "market_price_at_bet": 0.787,
@@ -564,7 +564,7 @@
     {
       "market_id": "d6d6zngPcZ",
       "question": "Will the S&P500 be within 1% of all time high at the end of Apr 2026?",
-      "category": "misc",
+      "category": "economics",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.673,
       "market_price_at_bet": 0.615,
@@ -594,7 +594,7 @@
     {
       "market_id": "ASngSERUPP",
       "question": "Will Brent Crude Oil close above $100 on April 24th, 2026?",
-      "category": "economics",
+      "category": "commodity_price",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.833,
       "market_price_at_bet": 0.788,
@@ -609,7 +609,7 @@
     {
       "market_id": "dtQRCcupRl",
       "question": "goog ath april?",
-      "category": "misc",
+      "category": "economics",
       "outcome_bet": "NO",
       "estimate_at_bet": 0.357,
       "market_price_at_bet": 0.529,
@@ -654,7 +654,7 @@
     {
       "market_id": "5gAECOClQg",
       "question": "VIX hits 40 by end of April?",
-      "category": "misc",
+      "category": "event_by_date",
       "outcome_bet": "NO",
       "estimate_at_bet": 0.1172,
       "market_price_at_bet": 0.121,
@@ -789,7 +789,7 @@
     {
       "market_id": "d6d6zngPcZ",
       "question": "Will the S&P500 be within 1% of all time high at the end of Apr 2026?",
-      "category": "misc",
+      "category": "economics",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.7,
       "market_price_at_bet": 0.486,
@@ -819,7 +819,7 @@
     {
       "market_id": "Z550ZIUZA2",
       "question": "Will gold close April 2026 above $4,500/oz?",
-      "category": "misc",
+      "category": "commodity_price",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.8397916001319419,
       "market_price_at_bet": 0.7620382996374149,
@@ -834,7 +834,7 @@
     {
       "market_id": "UIz8PINcCZ",
       "question": "Will WTI crude oil be above $90/barrel on April 30, 2026?",
-      "category": "economics",
+      "category": "commodity_price",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.7428392176905911,
       "market_price_at_bet": 0.6620321999635508,
@@ -894,7 +894,7 @@
     {
       "market_id": "pyOPUy9NEg",
       "question": "Will COMEX Gold (June 2026) touch $5000.00 at any point before April 25, 2026?",
-      "category": "misc",
+      "category": "event_by_date",
       "outcome_bet": "NO",
       "estimate_at_bet": 0.298,
       "market_price_at_bet": 0.335,
@@ -984,7 +984,7 @@
     {
       "market_id": "ENchIURR8A",
       "question": "Price of Gold by the end of April?",
-      "category": "misc",
+      "category": "commodity_price",
       "outcome_bet": "YES",
       "estimate_at_bet": 0.283,
       "market_price_at_bet": 0.175,
@@ -1029,7 +1029,7 @@
     {
       "market_id": "0dISdh2U5R",
       "question": "Will Brent Crude Oil close above $115 on April 20th, 2026?",
-      "category": "economics",
+      "category": "commodity_price",
       "outcome_bet": "NO",
       "estimate_at_bet": 0.054,
       "market_price_at_bet": 0.122,
