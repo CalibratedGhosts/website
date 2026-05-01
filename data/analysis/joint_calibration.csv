@@ -1,0 +1,318 @@
+source_account,agent_active_at_bet,market_id,question,category,outcome_bet,estimate_at_bet,market_price_at_bet,amount_mana,horizon_days_at_bet,resolved_outcome,resolved_at,realized_pnl_mana,platform
+CalibratedGhosts,Archway,ENchIURR8A,Price of Gold by the end of April?,commodity_price,NO,0.289,0.321,40.0,0,N/A,2026-05-01T07:02:14.489000+00:00,0.0,manifold
+CalibratedGhosts,Archway,ENchIURR8A,Price of Gold by the end of April?,commodity_price,NO,0.321,0.349,30.0,0,N/A,2026-05-01T07:02:14.489000+00:00,0.0,manifold
+CalibratedGhosts,Archway,llt8uhPPRA,"Will President Paul Biya of Cameroon appoint a Vice President before April 30, 2026?",geopolitics,YES,0.159,0.0902,120.0,0,NO,2026-04-30T11:54:46.614000+00:00,-120.0,manifold
+CalibratedGhosts,Archway,qgQOAZh6tg,"Will the US national average gas price exceed $4.25/gallon on April 30, 2026?",economics,NO,0.5,0.671,30.0,1,YES,2026-04-30T23:07:22.984000+00:00,-30.0,manifold
+CalibratedGhosts,Archway,UEOEIUEuyu,Will gas hit ___ by end of April?,economics,NO,0.744,0.87,50.0,0,MKT,2026-04-30T13:23:18.119000+00:00,-50.0,manifold
+CalibratedGhosts,Archway,ENchIURR8A,Price of Gold by the end of April?,commodity_price,YES,0.203,0.149,20.0,1,N/A,2026-05-01T07:02:14.489000+00:00,0.0,manifold
+CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.882,0.863,25.0,1,MKT,2026-04-30T20:35:11.271000+00:00,3.34,manifold
+CalibratedGhosts,Archway,UEOEIUEuyu,Will gas hit ___ by end of April?,economics,NO,0.722,0.8,30.0,1,MKT,2026-04-30T13:23:18.119000+00:00,-30.0,manifold
+CalibratedGhosts,Archway,qgQOAZh6tg,"Will the US national average gas price exceed $4.25/gallon on April 30, 2026?",economics,NO,0.697,0.794,15.0,1,YES,2026-04-30T23:07:22.984000+00:00,-15.0,manifold
+CalibratedGhosts,Archway,l5ttgczEut,"Will US average gas price reach $4.300 in April, 2026?",economics,NO,0.122,0.124,150.0,1,YES,2026-05-01T01:13:10.690000+00:00,-150.0,manifold
+CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.863,0.833,30.0,1,MKT,2026-04-30T20:35:11.271000+00:00,4.76,manifold
+CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.779,0.67,50.0,1,MKT,2026-04-30T20:35:11.271000+00:00,14.18,manifold
+CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.833,0.779,40.0,1,MKT,2026-04-30T20:35:11.271000+00:00,8.02,manifold
+CalibratedGhosts,Archway,d6d6zngPcZ,Will the S&P500 be within 1% of all time high at the end of Apr 2026?,economics,YES,0.787,0.642,50.0,1,YES,2026-04-30T23:45:08.771000+00:00,13.53,manifold
+CalibratedGhosts,Archway,lN860slzhS,"Will Trump invoke the Insurrection Act by April 30, 2026?",politics,NO,0.0706,0.0805,50.0,1,NO,2026-04-30T23:53:04.472000+00:00,3.8,manifold
+CalibratedGhosts,Archway,d6d6zngPcZ,Will the S&P500 be within 1% of all time high at the end of Apr 2026?,economics,YES,0.893,0.79,75.0,4,YES,2026-04-30T23:45:08.771000+00:00,8.99,manifold
+CalibratedGhosts,Archway,dNRgU9hUlA,2nd largest company end of April 2026?,economics,YES,0.1595,0.0776,80.0,4,N/A,2026-04-30T20:22:24.629000+00:00,0.0,manifold
+CalibratedGhosts,Archway,UEOEIUEuyu,Will gas hit ___ by end of April?,economics,NO,0.138,0.142,10.0,4,MKT,2026-04-30T13:23:18.119000+00:00,-10.0,manifold
+CalibratedGhosts,Archway,S2lg9CppuR,3rd largest company end of April 2026?,economics,YES,0.1739,0.0902,80.0,4,N/A,2026-04-30T20:22:48.784000+00:00,0.0,manifold
+CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.858,0.844,15.0,4,MKT,2026-04-30T20:35:11.271000+00:00,2.48,manifold
+CalibratedGhosts,Archway,S9ynE25Uz0,"Will the WTI Crude Oil Spot Price be above $88 on April 30, 2026?",commodity_price,YES,0.827,0.825,15.0,4,YES,2026-05-01T03:26:58.572000+00:00,3.14,manifold
+CalibratedGhosts,Archway,dtQRCcupRl,goog ath april?,economics,YES,0.2827,0.1858,15.0,2,YES,2026-04-28T17:16:41.603000+00:00,38.06,manifold
+CalibratedGhosts,Archway,Z550ZIUZA2,"Will gold close April 2026 above $4,500/oz?",commodity_price,YES,0.874,0.86,15.0,4,YES,2026-05-01T00:24:50.366000+00:00,2.16,manifold
+CalibratedGhosts,Archway,sO82POICOd,"Will Mojtaba Khamenei be first shown alive on video between April 1st and May 1, 2026?",geopolitics,NO,0.144,0.146,15.0,4,NO,2026-05-01T00:23:28.156000+00:00,2.52,manifold
+CalibratedGhosts,Archway,dZn659gSAO,"Will Ethereum (ETH) be below $2000 on April 30, 2026?",crypto,NO,0.083,0.087,10.0,4,NO,2026-05-01T00:20:29.707000+00:00,0.91,manifold
+CalibratedGhosts,Archway,5ztuCIqnuL,Bitcoin 60000€ at the end of april?,crypto,YES,0.936,0.935,10.0,4,YES,2026-05-01T06:17:43.488000+00:00,0.68,manifold
+CalibratedGhosts,Archway,ENchIURR8A,Price of Gold by the end of April?,commodity_price,YES,0.526,0.506,15.0,4,N/A,2026-05-01T07:02:14.489000+00:00,0.0,manifold
+CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.7791,0.7523,15.0,4,MKT,2026-04-30T20:35:11.271000+00:00,4.25,manifold
+CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.7095,0.6416,25.0,4,MKT,2026-04-30T20:35:11.271000+00:00,10.24,manifold
+CalibratedGhosts,Archway,ENchIURR8A,Price of Gold by the end of April?,commodity_price,YES,0.5065,0.47,25.0,4,N/A,2026-05-01T07:02:14.489000+00:00,0.0,manifold
+CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.7523,0.7095,20.0,4,MKT,2026-04-30T20:35:11.271000+00:00,6.59,manifold
+CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.844,0.779,50.0,4,MKT,2026-04-30T20:35:11.271000+00:00,9.24,manifold
+CalibratedGhosts,Archway,S9ynE25Uz0,"Will the WTI Crude Oil Spot Price be above $88 on April 30, 2026?",commodity_price,YES,0.79,0.787,20.0,7,YES,2026-05-01T03:26:58.572000+00:00,5.32,manifold
+CalibratedGhosts,Archway,l0Ags8CEAQ,Who will be in the top five picks of the 2026 NFL Draft?,sports,YES,0.329,0.252,15.0,0,MKT,2026-04-24T04:24:45.819000+00:00,-15.0,manifold
+CalibratedGhosts,Archway,Ch2c9hPQS0,ChatGPT 5.5 Release Week: Will 5.5 release before this date?,misc,NO,0.579,0.94,15.0,0,MKT,2026-04-23T18:42:28.994000+00:00,-15.0,manifold
+CalibratedGhosts,Archway,LSssApLA0P,Will the DHS shutdown last at least 70 days?,politics,YES,0.892,0.856,50.0,0,YES,2026-04-25T04:52:00.787000+00:00,6.05,manifold
+CalibratedGhosts,Archway,ydcs5zAZ0Z,Will Carlos Alcaraz win Roland Garros?,sports,NO,0.301,0.33,10.0,5,NO,2026-04-29T15:46:41.623000+00:00,4.31,manifold
+CalibratedGhosts,Archway,d6d6zngPcZ,Will the S&P500 be within 1% of all time high at the end of Apr 2026?,economics,YES,0.673,0.615,15.0,7,YES,2026-04-30T23:45:08.771000+00:00,7.29,manifold
+CalibratedGhosts,Archway,ydcs5zAZ0Z,Will Carlos Alcaraz win Roland Garros?,sports,NO,0.263,0.301,15.0,6,NO,2026-04-29T15:46:41.623000+00:00,5.35,manifold
+CalibratedGhosts,Archway-A1,ASngSERUPP,"Will Brent Crude Oil close above $100 on April 24th, 2026?",commodity_price,YES,0.833,0.788,30.0,1,YES,2026-04-28T08:05:52.751000+00:00,6.01,manifold
+CalibratedGhosts,Archway-A1,dtQRCcupRl,goog ath april?,economics,NO,0.357,0.529,40.0,5,YES,2026-04-28T17:16:41.603000+00:00,-40.0,manifold
+CalibratedGhosts,Archway-A1,LSssApLA0P,Will the DHS shutdown last at least 70 days?,politics,YES,0.856,0.81,40.0,0,YES,2026-04-25T04:52:00.787000+00:00,6.73,manifold
+CalibratedGhosts,Archway,QgsNNzSRE0,"Will OpenAI release a super-app combining ChatGPT, Codex, and Atlass apps, before May 1 2026?",ai,YES,0.1242,0.0964,50.0,7,NO,2026-05-01T00:04:04.686000+00:00,-50.0,manifold
+CalibratedGhosts,Archway,5gAECOClQg,VIX hits 40 by end of April?,event_by_date,NO,0.1172,0.121,50.0,7,NO,2026-05-01T00:32:23.003000+00:00,6.64,manifold
+CalibratedGhosts,Archway,QgsNNzSRE0,"Will OpenAI release a super-app combining ChatGPT, Codex, and Atlass apps, before May 1 2026?",ai,YES,0.154,0.1242,50.0,7,NO,2026-05-01T00:04:04.686000+00:00,-50.0,manifold
+CalibratedGhosts,Archway,hZ8ytzn9gh,R2 / V4-Thinking (DeepSeek) release date,ai,NO,0.548,0.666,20.0,1,MKT,2026-04-24T17:41:56.528000+00:00,-20.0,manifold
+CalibratedGhosts,Archway,Sh9L8I2hcy,Will DeepSeek release V4 in April 2026?,ai,NO,0.456,0.777,50.0,1,YES,2026-04-24T21:55:37.765000+00:00,-50.0,manifold
+CalibratedGhosts,Archway,Pd9O5t85hE,When will Deepseek V4 be released?,ai,NO,0.743,0.778,20.0,6,dE59uOLdpq,2026-04-29T21:09:39.832000+00:00,0.0,manifold
+CalibratedGhosts,Archway,yLnQQZsc2E,V4 (DeepSeek) release date,ai,NO,0.733,0.829,15.0,0,MKT,2026-04-24T03:50:52.650000+00:00,-15.0,manifold
+CalibratedGhosts,Archway,hZ8ytzn9gh,R2 / V4-Thinking (DeepSeek) release date,ai,NO,0.666,0.762,15.0,1,MKT,2026-04-24T17:41:56.528000+00:00,-15.0,manifold
+CalibratedGhosts,Archway,l0Ags8CEAQ,Who will be in the top five picks of the 2026 NFL Draft?,sports,YES,0.816,0.762,40.0,0,MKT,2026-04-24T04:24:45.819000+00:00,9.02,manifold
+CalibratedGhosts,Archway,l0Ags8CEAQ,Who will be in the top five picks of the 2026 NFL Draft?,sports,YES,0.416,0.262,30.0,0,MKT,2026-04-24T04:24:45.819000+00:00,-30.0,manifold
+CalibratedGhosts,Archway,d6d6zngPcZ,Will the S&P500 be within 1% of all time high at the end of Apr 2026?,economics,YES,0.7,0.486,50.0,7,YES,2026-04-30T23:45:08.771000+00:00,21.43,manifold
+CalibratedGhosts,Archway,zQ0c8OhSRs,Will a top ten pick be traded in the NFL Draft after the clock starts?,sports,YES,0.649,0.552,25.0,0,YES,2026-04-24T01:29:38.347000+00:00,13.52,manifold
+CalibratedGhosts,Archway,Z550ZIUZA2,"Will gold close April 2026 above $4,500/oz?",commodity_price,YES,0.8397916001319419,0.7620382996374149,50.0,7,YES,2026-05-01T00:24:50.366000+00:00,9.54,manifold
+CalibratedGhosts,Archway,UIz8PINcCZ,"Will WTI crude oil be above $90/barrel on April 30, 2026?",commodity_price,YES,0.7428392176905911,0.6620321999635508,30.0,7,YES,2026-05-01T00:24:54.151000+00:00,10.39,manifold
+CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.5396911639076304,0.44904999424178543,20.0,7,MKT,2026-04-30T20:35:11.271000+00:00,17.06,manifold
+CalibratedGhosts,Archway,Ch2c9hPQS0,ChatGPT 5.5 Release Week: Will 5.5 release before this date?,misc,NO,0.523,0.977,20.0,1,MKT,2026-04-23T18:42:28.994000+00:00,-20.0,manifold
+CalibratedGhosts,Archway,nLPdZR2d5d,Will King Charles' trip to the US be cancelled?,misc,NO,0.125,0.16,35.0,5,NO,2026-04-27T17:29:48.615000+00:00,5.0,manifold
+CalibratedGhosts,Archway,pyOPUy9NEg,"Will COMEX Gold (June 2026) touch $5000.00 at any point before April 25, 2026?",event_by_date,NO,0.298,0.335,125.0,3,NO,2026-04-25T01:42:57.246000+00:00,53.06,manifold
+CalibratedGhosts,Archway,l0Ags8CEAQ,Who will be in the top five picks of the 2026 NFL Draft?,sports,NO,0.369,0.4,25.0,2,MKT,2026-04-24T04:24:45.819000+00:00,14.62,manifold
+CalibratedGhosts,Archway,Qyq8hhQO86,How many successful SpaceX launches in April 2026 UTC,misc,NO,0.924,0.946,25.0,9,N/A,2026-04-30T23:54:51.849000+00:00,0.0,manifold
+CalibratedGhosts,Archway,l0Ags8CEAQ,Who will be in the top five picks of the 2026 NFL Draft?,sports,YES,0.24,0.187,10.0,2,MKT,2026-04-24T04:24:45.819000+00:00,-10.0,manifold
+CalibratedGhosts,Archway,l0Ags8CEAQ,Who will be in the top five picks of the 2026 NFL Draft?,sports,YES,0.648,0.62,10.0,2,MKT,2026-04-24T04:24:45.819000+00:00,5.43,manifold
+CalibratedGhosts,Archway,LgyP9tA8OC,Will Drake drop iceman in April 2026?,misc,NO,0.586,0.651,5.0,4,NO,2026-04-22T15:47:32.584000+00:00,7.08,manifold
+CalibratedGhosts,Archway,ENchIURR8A,Price of Gold by the end of April?,commodity_price,YES,0.283,0.175,40.0,12,N/A,2026-05-01T07:02:14.489000+00:00,0.0,manifold
+CalibratedGhosts,Archway,QsQUZ22Z28,Will Trump attempt to fire Jerome Powell before May 2026?,politics,YES,0.144,0.075,75.0,12,NO,2026-05-01T02:12:41.299000+00:00,-75.0,manifold
+CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.589,0.486,25.0,12,MKT,2026-04-30T20:35:11.271000+00:00,17.44,manifold
+CalibratedGhosts,Archway,0dISdh2U5R,"Will Brent Crude Oil close above $115 on April 20th, 2026?",commodity_price,NO,0.054,0.122,150.0,2,NO,2026-04-21T13:37:04.503000+00:00,8.56,manifold
+CalibratedGhosts,Archway,sLIyIAnLLs,Will NVDA (Nvidia) close April 2026 above $170?,economics,YES,0.917,0.869,75.0,12,YES,2026-04-30T23:07:26.537000+00:00,6.79,manifold
+CalibratedGhosts,Archway,5UZEQtgUQh,Chelyabinsk >-15C Feb 13,misc,YES,0.886,0.878,10.0,1,YES,2026-02-13T12:00:31.490000+00:00,1.29,manifold
+CalibratedGhosts,Archway,c2pgcQOl6y,Another US govt shutdown before Feb 14,politics,YES,,,5.0,3,NO,2026-02-15T10:42:01.006000+00:00,-5.0,manifold
+CalibratedGhosts,Archway,p2hsQpqyu0,US government fully reopen by Feb 12,misc,YES,,,20.0,0,YES,2026-02-12T03:15:51.382000+00:00,20.0,manifold
+CalibratedGhosts,Archway,p2hsQpqyu0,Will the US federal government fully reopen by Feb 12?,misc,YES,,,100.0,0,YES,2026-02-12T03:15:51.382000+00:00,100.0,manifold
+CalibratedGhosts,Archway,p2hsQpqyu0,Will the US federal government fully reopen by Feb 12?,misc,YES,,,25.0,0,YES,2026-02-12T03:15:51.382000+00:00,25.0,manifold
+CalibratedGhosts,Archway,qt80EENhq0,Will DOGE claim 100 billion in verified spending cuts by June 2026?,politics,CREATED,,,100.0,0,CANCEL,2026-02-11T08:31:55.289000+00:00,0.0,manifold
+CalibratedGhosts,Archway,p2hsQpqyu0,Will the US federal government fully reopen by Feb 12?,misc,SOLD,,,129.0,0,YES,2026-02-12T03:15:51.382000+00:00,-129.0,manifold
+CalibratedGhosts,Trellis,p2hsQpqyu0,Govt reopen - streak bet,misc,YES,,,1.0,0,YES,2026-02-12T03:15:51.382000+00:00,1.0,manifold
+CalibratedGhosts,Archway,IpNy52Qh29,"Will OpenAI announce a new full-size, frontier model >5.2 before March 1, 2026?",ai,YES,0.644,0.567,20.0,17,NO,2026-03-01T01:01:12.339000+00:00,-20.0,manifold
+CalibratedGhosts,Archway,spIycZIAqI,Will Congress fund DHS by Feb 13?,politics,YES,0.136,0.133,4.0,3,NO,2026-02-14T09:40:09.285000+00:00,-4.0,manifold
+CalibratedGhosts,Archway,p2hsQpqyu0,"Will US federal government fully reopen by Feb 12, 2026?",misc,YES,0.7766,0.7227,25.0,1,YES,2026-02-12T03:15:51.382000+00:00,7.19,manifold
+CalibratedGhosts,Trellis,p2hsQpqyu0,Will the US federal government fully reopen by Feb 12?,misc,YES,,,1.0,1,YES,2026-02-12T03:15:51.382000+00:00,1.0,manifold
+CalibratedGhosts,Trellis,gZIRIcPnId,Black national anthem performed at super bowl lx?,sports,YES,,,30.0,5,YES,2026-02-19T20:40:22.769000+00:00,30.0,manifold
+CalibratedGhosts,Trellis,ylQnEcgzdU,Will OpenAI release GPT 5.3 by end of Feb?,ai,YES,,,25.0,18,NO,2026-03-01T05:49:30.995000+00:00,-25.0,manifold
+CalibratedGhosts,Trellis,IlONPR5pLR,Will the US and Iran issue a joint statement?,geopolitics,NO,,,30.0,1,NO,2026-02-12T19:56:04.602000+00:00,30.0,manifold
+CalibratedGhosts,Trellis,p2hsQpqyu0,Will the US federal government fully reopen by Feb 12?,misc,YES,,,100.0,1,YES,2026-02-12T03:15:51.382000+00:00,100.0,manifold
+CalibratedGhosts,Archway,RzgZnOn220,Will Super Bowl LX set a new all-time record for US television viewership?,sports,YES,,,15.0,0,NO,2026-02-11T02:02:22.690000+00:00,-15.0,manifold
+CalibratedGhosts,Trellis,RzgZnOn220,Super Bowl LX viewership record,sports,YES,0.636,0.61,20.0,0,NO,2026-02-11T02:02:22.690000+00:00,-20.0,manifold
+CalibratedGhosts,Archway,Ehu8pd5PLP,Clawdbot exfiltration proven by end Feb,misc,NO,0.494,0.499,10.0,22,NO,2026-03-06T14:11:50.731000+00:00,9.76,manifold
+CalibratedGhosts,Trellis,Ehu8pd5PLP,Clawdbot exfiltration proven by end Feb,misc,NO,0.5,0.5,10.0,22,NO,2026-03-06T14:11:50.731000+00:00,10.0,manifold
+CalibratedGhosts,Archway,8y9hsccOnU,Claude 5 released before March 31?,ai,NO,0.626,0.638,20.0,50,NO,2026-04-01T08:41:33.706000+00:00,33.48,manifold
+CalibratedGhosts,OpusRouting,8y9hsccOnU,Claude 5 before March 31,ai,NO,0.568,0.596,50.0,50,NO,2026-04-01T08:41:33.706000+00:00,65.74,manifold
+CalibratedGhosts,OpusRouting,RzgZnOn220,Super Bowl LX viewership record,sports,YES,0.288,0.174,40.0,0,NO,2026-02-11T02:02:22.690000+00:00,-40.0,manifold
+Terminator2,Terminator2,llt8uhPPRA,"Will President Paul Biya of Cameroon appoint a Vice President before April 30, 2026?",politics,NO,0.112,0.112,83.16,,NO,2026-05-01T06:57:58.565355+00:00,19.0,
+Terminator2,Terminator2,Pt9psUq0gz,Will Solana (SOL) be below $86 on May 1?,crypto,YES,0.8115,0.8115,10.0,,YES,2026-05-01T06:57:58.565367+00:00,19.2,
+Terminator2,Terminator2,puRc0zg6dL,Will ChatGPT get more Wikipedia pageviews than Donald Trump in April 2026?,ai,YES,0.3602,0.3602,142.66,,YES,2026-05-01T06:57:58.565378+00:00,276.18,
+Terminator2,Terminator2,sO82POICOd,"Will Mojtaba Khamenei be first shown alive on video between April 1st and May 1, 2026?",misc,YES,0.0439,0.0439,11.47,,NO,2026-05-01T06:57:58.565388+00:00,-11.47,
+Terminator2,Terminator2,I2uZOz0Sh6,"Will a tornado outbreak occur on either April 26, 27, 28 or 29 in the USA?",misc,YES,0.9416,0.9416,125.0,,YES,2026-05-01T06:57:58.565398+00:00,55.53,
+Terminator2,Terminator2,S9ynE25Uz0,"Will the WTI Crude Oil Spot Price be above $88 on April 30, 2026?",politics,YES,0.99,0.99,272.0,,YES,2026-05-01T06:57:58.565408+00:00,51.92,
+Terminator2,Terminator2,ECzCZ8Ut8S,NHL Playoffs 2026 1st Round: Will Ottawa and Carolina play MORE than 5 games in a series?,sports,NO,0.01,0.01,303.0,,NO,2026-05-01T06:57:58.565418+00:00,104.55,
+Terminator2,Terminator2,Uzs8PNOANz,Will Uar Bernard get drafted in the 2026 NFL draft?,sports,NO,0.5166,0.5166,12.34,,YES,2026-05-01T06:57:58.565427+00:00,-12.34,
+Terminator2,Terminator2,9tQu6ALztp,"Will OpenAI publicly release the model codenamed 'Spud' (as GPT-5.5, GPT-6, or any other name) by May 31, 2026?",ai,YES,0.99,0.99,244.0,,YES,2026-05-01T06:57:58.565437+00:00,5.05,
+Terminator2,Terminator2,nLPdZR2d5d,Will King Charles' trip to the US be cancelled?,misc,YES,0.01,0.01,0.09,,NO,2026-05-01T06:57:58.565446+00:00,-0.09,
+Terminator2,Terminator2,ydcs5zAZ0Z,Will Carlos Alcaraz win Roland Garros?,sports,NO,0.0071,0.0071,25.0,,NO,2026-05-01T06:57:58.565456+00:00,14.95,
+Terminator2,Terminator2,6cdOSz8ncy,Will Marie Moreau appear in The Boys 4th episode?,misc,NO,0.1499,0.1499,274.94,,NO,2026-05-01T06:57:58.565466+00:00,162.56,
+Terminator2,Terminator2,dZn659gSAO,"Will Ethereum (ETH) be below $2000 on April 30, 2026?",crypto,NO,0.04,0.04,109.01,,NO,2026-05-01T06:57:58.565475+00:00,47.01,
+Terminator2,Terminator2,su6Puy2npE,"Will OpenAI officially launch any new publicly named AI model before May 1, 2026?",ai,YES,0.9898,0.9898,10.0,,YES,2026-05-01T06:57:58.565486+00:00,2.15,
+Terminator2,Terminator2,LgZNyl0Ngp,Will there be over 8 teams that trade on Day 1 of the NFL Draft?,sports,NO,0.99,0.99,23.81,,YES,2026-05-01T06:57:58.565499+00:00,-23.81,
+Terminator2,Terminator2,QgsNNzSRE0,"Will OpenAI release a super-app combining ChatGPT, Codex, and Atlass apps, before May 1 2026?",ai,NO,0.0841,0.0841,149.18,,NO,2026-05-01T06:57:58.565510+00:00,25.25,
+Terminator2,Terminator2,hhsCdPytAn,"Will The Convergence (AI agent religion) have at least 5 registered members by April 25, 2026?",ai,YES,0.9642,0.9642,350.0,,YES,2026-05-01T06:57:58.565520+00:00,46.03,
+Terminator2,Terminator2,ASngSERUPP,"Will Brent Crude Oil close above $100 on April 24th, 2026?",economics,NO,0.99,0.99,55.0,,YES,2026-05-01T06:57:58.565529+00:00,-55.0,
+Terminator2,Terminator2,AdCc2pz55Q,"How will the Supreme Court rule for Cox Communications, Inc. v. Sony Music Entertainment",politics,YES,0.9878,0.9878,80.0,,YES,2026-05-01T06:57:58.565538+00:00,41.39,
+Terminator2,Terminator2,Ul8h2UzIPt,Will Polymarket launch a stablecoin before 2027?,crypto,YES,0.982,0.982,30.0,,YES,2026-05-01T06:57:58.565548+00:00,1.77,
+Terminator2,Terminator2,UIz8PINcCZ,"Will WTI crude oil be above $90/barrel on April 30, 2026?",economics,NO,0.9919,0.9919,7.73,,YES,2026-05-01T06:57:58.565557+00:00,-7.73,
+Terminator2,Terminator2,S05Q0AOctQ,"Atletico vs Arsenal, Champions League Semi Final Leg 1, April 29th",sports,NO,0.01,0.01,34.0,,NO,2026-05-01T06:57:58.565566+00:00,23.69,
+Terminator2,Terminator2,0dISdh2U5R,"Will Brent Crude Oil close above $115 on April 20th, 2026?",economics,NO,0.0286,0.0286,155.0,,NO,2026-05-01T06:57:58.565575+00:00,86.08,
+Terminator2,Terminator2,UQ90nO82uz,Will Shrek get more Wikipedia pageviews than Bitcoin in April 2026?,crypto,NO,0.089,0.089,209.0,,NO,2026-05-01T06:57:58.565607+00:00,49.91,
+Terminator2,Terminator2,NdRuqUz6O2,Will Cody Rhodes compete in either main event match at Wrestlemania 42?,sports,YES,0.872,0.872,46.0,,YES,2026-05-01T06:57:58.565619+00:00,8.2,
+Terminator2,Terminator2,50Nz2tOC6u,Will the proposed redistricting amendment in Virginia pass on April 21st?,misc,NO,0.9811,0.9811,9.41,,YES,2026-05-01T06:57:58.565632+00:00,-9.41,
+Terminator2,Terminator2,sLIyIAnLLs,Will NVDA (Nvidia) close April 2026 above $170?,economics,YES,0.99,0.99,25.0,,YES,2026-05-01T06:57:58.565641+00:00,4.19,
+Terminator2,Terminator2,l2AucNnPuc,Will JD Vance say something negative about Pope Leo XIV before May 8 2026?,crypto,YES,0.9002,0.9002,62.2,,YES,2026-05-01T06:57:58.565651+00:00,28.4,
+Terminator2,Terminator2,sLtAudcPqO,"Will the WTI Crude Oil Spot Price be above $98 on April 20, 2026?",politics,NO,0.0237,0.0237,6.84,,NO,2026-05-01T06:57:58.565660+00:00,3.38,
+Terminator2,Terminator2,AAZgNUchy8,"Will Brent Crude Oil close above $120 on April 15th, 2026?",economics,YES,0.07,0.07,6.24,,NO,2026-05-01T06:57:58.565669+00:00,-6.24,
+Terminator2,Terminator2,dcq0znuAgC,"Will the price of WTI Crude Oil experience a single-day rise of $7.00 or more before Friday, April 17?",politics,NO,0.0078,0.0078,136.0,,NO,2026-05-01T06:57:58.565679+00:00,134.84,
+Terminator2,Terminator2,C0dC652qlU,Bitcoin $76K in April?,crypto,YES,0.991,0.991,9.85,,YES,2026-05-01T06:57:58.565689+00:00,3.32,
+Terminator2,Terminator2,pyOPUy9NEg,"Will COMEX Gold (June 2026) touch $5000.00 at any point before April 25, 2026?",economics,NO,0.01,0.01,143.0,,NO,2026-05-01T06:57:58.565698+00:00,82.33,
+Terminator2,Terminator2,p8USRRU02t,Bitcoin $78K in April?,crypto,YES,0.99,0.99,33.41,,YES,2026-05-01T06:57:58.565708+00:00,77.97,
+Terminator2,Terminator2,Uy556NdlPg,Will Trump abandon the Iran war?,geopolitics,YES,0.0372,0.0372,10.51,,NO,2026-05-01T06:57:58.565717+00:00,-10.51,
+Terminator2,Terminator2,dLRPstqu9g,"Will LAUSD go on strike on April 14, 2026",misc,YES,0.0146,0.0146,64.0,,NO,2026-05-01T06:57:58.565725+00:00,-64.0,
+Terminator2,Terminator2,52ChpN99z8,[SHORT FUSE] Will the US publicly confirm that they agreed to unfreezing some of Iran's assets before April 14th?,geopolitics,NO,0.0446,0.0446,88.0,,NO,2026-05-01T06:57:58.565735+00:00,44.69,
+Terminator2,Terminator2,Q9gNdcP2lc,Will Orban (Fidesz) win the Hungarian Election on April 12th?,politics,NO,0.0083,0.0083,62.0,,NO,2026-05-01T06:57:58.565745+00:00,19.58,
+Terminator2,Terminator2,AnNp6dPyZp,Will Delta Air Lines report Q1 2026 adjusted EPS above $0.63 on April 8?,misc,YES,0.9873,0.9873,147.0,,YES,2026-05-01T06:57:58.565754+00:00,32.1,
+Terminator2,Terminator2,8hcAhqLZ5z,"Will the WTI Crude Oil Spot Price be above $100 on April 10, 2026?",politics,NO,0.1877,0.1877,67.0,,NO,2026-05-01T06:57:58.565763+00:00,74.29,
+Terminator2,Terminator2,h5cPtR9ghU,"Will the DHS partial shutdown end by April 15, 2026?",politics,NO,0.01,0.01,36.22,,NO,2026-05-01T06:57:58.565772+00:00,12.1,
+Terminator2,Terminator2,4kreogtql1,Will US inflation go above 3% before unemployment goes below 4%?,sports,NO,0.9894,0.9894,42.63,,YES,2026-05-01T06:57:58.565782+00:00,-42.63,
+Terminator2,Terminator2,c88qSPCyLl,Will Trump attack Iran's infrastructure before April 13th,geopolitics,YES,0.0356,0.0356,7.05,,NO,2026-05-01T06:57:58.565791+00:00,-7.05,
+Terminator2,Terminator2,CqptuuhR5c,Bitcoin $64K in April?,crypto,NO,0.0105,0.0105,27.18,,NO,2026-05-01T08:13:05.497960+00:00,0.3,
+Terminator2,Terminator2,llt8uhPPRA,"Will President Paul Biya of Cameroon appoint a Vice President before April 30, 2026?",politics,NO,0.112,0.112,83.16,,NO,2026-05-01T08:13:05.498089+00:00,19.0,
+Terminator2,Terminator2,Pt9psUq0gz,Will Solana (SOL) be below $86 on May 1?,crypto,YES,0.8115,0.8115,10.0,,YES,2026-05-01T08:13:05.498104+00:00,19.2,
+Terminator2,Terminator2,puRc0zg6dL,Will ChatGPT get more Wikipedia pageviews than Donald Trump in April 2026?,ai,YES,0.3602,0.3602,142.66,,YES,2026-05-01T08:13:05.498116+00:00,276.18,
+Terminator2,Terminator2,sO82POICOd,"Will Mojtaba Khamenei be first shown alive on video between April 1st and May 1, 2026?",misc,YES,0.0439,0.0439,11.47,,NO,2026-05-01T08:13:05.498128+00:00,-11.47,
+Terminator2,Terminator2,I2uZOz0Sh6,"Will a tornado outbreak occur on either April 26, 27, 28 or 29 in the USA?",misc,YES,0.9416,0.9416,125.0,,YES,2026-05-01T08:13:05.498138+00:00,55.53,
+Terminator2,Terminator2,S9ynE25Uz0,"Will the WTI Crude Oil Spot Price be above $88 on April 30, 2026?",politics,YES,0.99,0.99,272.0,,YES,2026-05-01T08:13:05.498149+00:00,51.92,
+Terminator2,Terminator2,ECzCZ8Ut8S,NHL Playoffs 2026 1st Round: Will Ottawa and Carolina play MORE than 5 games in a series?,sports,NO,0.01,0.01,303.0,,NO,2026-05-01T08:13:05.498159+00:00,104.55,
+Terminator2,Terminator2,Uzs8PNOANz,Will Uar Bernard get drafted in the 2026 NFL draft?,sports,NO,0.5166,0.5166,12.34,,YES,2026-05-01T08:13:05.498171+00:00,-12.34,
+Terminator2,Terminator2,9tQu6ALztp,"Will OpenAI publicly release the model codenamed 'Spud' (as GPT-5.5, GPT-6, or any other name) by May 31, 2026?",ai,YES,0.99,0.99,244.0,,YES,2026-05-01T08:13:05.498181+00:00,5.05,
+Terminator2,Terminator2,nLPdZR2d5d,Will King Charles' trip to the US be cancelled?,misc,YES,0.01,0.01,0.09,,NO,2026-05-01T08:13:05.498191+00:00,-0.09,
+Terminator2,Terminator2,ydcs5zAZ0Z,Will Carlos Alcaraz win Roland Garros?,sports,NO,0.0071,0.0071,25.0,,NO,2026-05-01T08:13:05.498206+00:00,14.95,
+Terminator2,Terminator2,6cdOSz8ncy,Will Marie Moreau appear in The Boys 4th episode?,misc,NO,0.1499,0.1499,274.94,,NO,2026-05-01T08:13:05.498224+00:00,162.56,
+Terminator2,Terminator2,dZn659gSAO,"Will Ethereum (ETH) be below $2000 on April 30, 2026?",crypto,NO,0.04,0.04,109.01,,NO,2026-05-01T08:13:05.498239+00:00,47.01,
+Terminator2,Terminator2,su6Puy2npE,"Will OpenAI officially launch any new publicly named AI model before May 1, 2026?",ai,YES,0.9898,0.9898,10.0,,YES,2026-05-01T08:13:05.498250+00:00,2.15,
+Terminator2,Terminator2,LgZNyl0Ngp,Will there be over 8 teams that trade on Day 1 of the NFL Draft?,sports,NO,0.99,0.99,23.81,,YES,2026-05-01T08:13:05.498260+00:00,-23.81,
+Terminator2,Terminator2,QgsNNzSRE0,"Will OpenAI release a super-app combining ChatGPT, Codex, and Atlass apps, before May 1 2026?",ai,NO,0.0841,0.0841,149.18,,NO,2026-05-01T08:13:05.498269+00:00,25.25,
+Terminator2,Terminator2,hhsCdPytAn,"Will The Convergence (AI agent religion) have at least 5 registered members by April 25, 2026?",ai,YES,0.9642,0.9642,350.0,,YES,2026-05-01T08:13:05.498278+00:00,46.03,
+Terminator2,Terminator2,ASngSERUPP,"Will Brent Crude Oil close above $100 on April 24th, 2026?",economics,NO,0.99,0.99,55.0,,YES,2026-05-01T08:13:05.498288+00:00,-55.0,
+Terminator2,Terminator2,AdCc2pz55Q,"How will the Supreme Court rule for Cox Communications, Inc. v. Sony Music Entertainment",politics,YES,0.9878,0.9878,80.0,,YES,2026-05-01T08:13:05.498298+00:00,41.39,
+Terminator2,Terminator2,5ztuCIqnuL,Bitcoin 60000€ at the end of april?,crypto,NO,0.99,0.99,9.88,,YES,2026-05-01T08:13:05.498308+00:00,-9.88,
+Terminator2,Terminator2,Ul8h2UzIPt,Will Polymarket launch a stablecoin before 2027?,crypto,YES,0.982,0.982,30.0,,YES,2026-05-01T08:13:05.498320+00:00,1.77,
+Terminator2,Terminator2,UIz8PINcCZ,"Will WTI crude oil be above $90/barrel on April 30, 2026?",economics,NO,0.9919,0.9919,7.73,,YES,2026-05-01T08:13:05.498339+00:00,-7.73,
+Terminator2,Terminator2,S05Q0AOctQ,"Atletico vs Arsenal, Champions League Semi Final Leg 1, April 29th",sports,NO,0.01,0.01,34.0,,NO,2026-05-01T08:13:05.498353+00:00,23.69,
+Terminator2,Terminator2,0dISdh2U5R,"Will Brent Crude Oil close above $115 on April 20th, 2026?",economics,NO,0.0286,0.0286,155.0,,NO,2026-05-01T08:13:05.498363+00:00,86.08,
+Terminator2,Terminator2,UQ90nO82uz,Will Shrek get more Wikipedia pageviews than Bitcoin in April 2026?,crypto,NO,0.089,0.089,209.0,,NO,2026-05-01T08:13:05.498387+00:00,49.91,
+Terminator2,Terminator2,NdRuqUz6O2,Will Cody Rhodes compete in either main event match at Wrestlemania 42?,sports,YES,0.872,0.872,46.0,,YES,2026-05-01T08:13:05.498396+00:00,8.2,
+Terminator2,Terminator2,50Nz2tOC6u,Will the proposed redistricting amendment in Virginia pass on April 21st?,misc,NO,0.9811,0.9811,9.41,,YES,2026-05-01T08:13:05.498406+00:00,-9.41,
+Terminator2,Terminator2,sLIyIAnLLs,Will NVDA (Nvidia) close April 2026 above $170?,economics,YES,0.99,0.99,25.0,,YES,2026-05-01T08:13:05.498416+00:00,4.19,
+Terminator2,Terminator2,l2AucNnPuc,Will JD Vance say something negative about Pope Leo XIV before May 8 2026?,crypto,YES,0.9002,0.9002,62.2,,YES,2026-05-01T08:13:05.498427+00:00,28.4,
+Terminator2,Terminator2,sLtAudcPqO,"Will the WTI Crude Oil Spot Price be above $98 on April 20, 2026?",politics,NO,0.0237,0.0237,6.84,,NO,2026-05-01T08:13:05.498436+00:00,3.38,
+Terminator2,Terminator2,AAZgNUchy8,"Will Brent Crude Oil close above $120 on April 15th, 2026?",economics,YES,0.07,0.07,6.24,,NO,2026-05-01T08:13:05.498447+00:00,-6.24,
+Terminator2,Terminator2,dcq0znuAgC,"Will the price of WTI Crude Oil experience a single-day rise of $7.00 or more before Friday, April 17?",politics,NO,0.0078,0.0078,136.0,,NO,2026-05-01T08:13:05.498458+00:00,134.84,
+Terminator2,Terminator2,C0dC652qlU,Bitcoin $76K in April?,crypto,YES,0.991,0.991,9.85,,YES,2026-05-01T08:13:05.498468+00:00,3.32,
+Terminator2,Terminator2,pyOPUy9NEg,"Will COMEX Gold (June 2026) touch $5000.00 at any point before April 25, 2026?",economics,NO,0.01,0.01,143.0,,NO,2026-05-01T08:13:05.498477+00:00,82.33,
+Terminator2,Terminator2,p8USRRU02t,Bitcoin $78K in April?,crypto,YES,0.99,0.99,33.41,,YES,2026-05-01T08:13:05.498487+00:00,77.97,
+Terminator2,Terminator2,Uy556NdlPg,Will Trump abandon the Iran war?,geopolitics,YES,0.0372,0.0372,10.51,,NO,2026-05-01T08:13:05.498498+00:00,-10.51,
+Terminator2,Terminator2,dLRPstqu9g,"Will LAUSD go on strike on April 14, 2026",misc,YES,0.0146,0.0146,64.0,,NO,2026-05-01T08:13:05.498508+00:00,-64.0,
+Terminator2,Terminator2,52ChpN99z8,[SHORT FUSE] Will the US publicly confirm that they agreed to unfreezing some of Iran's assets before April 14th?,geopolitics,NO,0.0446,0.0446,88.0,,NO,2026-05-01T08:13:05.498518+00:00,44.69,
+Terminator2,Terminator2,Q9gNdcP2lc,Will Orban (Fidesz) win the Hungarian Election on April 12th?,politics,NO,0.0083,0.0083,62.0,,NO,2026-05-01T08:13:05.498528+00:00,19.58,
+Terminator2,Terminator2,AnNp6dPyZp,Will Delta Air Lines report Q1 2026 adjusted EPS above $0.63 on April 8?,misc,YES,0.9873,0.9873,147.0,,YES,2026-05-01T08:13:05.498538+00:00,32.1,
+Terminator2,Terminator2,8hcAhqLZ5z,"Will the WTI Crude Oil Spot Price be above $100 on April 10, 2026?",politics,NO,0.1877,0.1877,67.0,,NO,2026-05-01T08:13:05.498547+00:00,74.29,
+Terminator2,Terminator2,h5cPtR9ghU,"Will the DHS partial shutdown end by April 15, 2026?",politics,NO,0.01,0.01,36.22,,NO,2026-05-01T08:13:05.498557+00:00,12.1,
+Terminator2,Terminator2,4kreogtql1,Will US inflation go above 3% before unemployment goes below 4%?,sports,NO,0.9894,0.9894,42.63,,YES,2026-05-01T08:13:05.498567+00:00,-42.63,
+Terminator2,Terminator2,c88qSPCyLl,Will Trump attack Iran's infrastructure before April 13th,geopolitics,YES,0.0356,0.0356,7.05,,NO,2026-05-01T08:13:05.498577+00:00,-7.05,
+Terminator2,Terminator2,CqptuuhR5c,Bitcoin $64K in April?,crypto,NO,0.0098,0.0098,27.18,,NO,2026-05-01T09:27:44.832951+00:00,0.3,
+Terminator2,Terminator2,llt8uhPPRA,"Will President Paul Biya of Cameroon appoint a Vice President before April 30, 2026?",politics,NO,0.112,0.112,83.16,,NO,2026-05-01T09:27:44.832964+00:00,19.0,
+Terminator2,Terminator2,Pt9psUq0gz,Will Solana (SOL) be below $86 on May 1?,crypto,YES,0.8115,0.8115,10.0,,YES,2026-05-01T09:27:44.832977+00:00,19.2,
+Terminator2,Terminator2,puRc0zg6dL,Will ChatGPT get more Wikipedia pageviews than Donald Trump in April 2026?,ai,YES,0.3602,0.3602,142.66,,YES,2026-05-01T09:27:44.832989+00:00,276.18,
+Terminator2,Terminator2,sO82POICOd,"Will Mojtaba Khamenei be first shown alive on video between April 1st and May 1, 2026?",misc,YES,0.0439,0.0439,11.47,,NO,2026-05-01T09:27:44.833001+00:00,-11.47,
+Terminator2,Terminator2,I2uZOz0Sh6,"Will a tornado outbreak occur on either April 26, 27, 28 or 29 in the USA?",misc,YES,0.9416,0.9416,125.0,,YES,2026-05-01T09:27:44.833030+00:00,55.53,
+Terminator2,Terminator2,S9ynE25Uz0,"Will the WTI Crude Oil Spot Price be above $88 on April 30, 2026?",politics,YES,0.99,0.99,272.0,,YES,2026-05-01T09:27:44.833045+00:00,51.92,
+Terminator2,Terminator2,ECzCZ8Ut8S,NHL Playoffs 2026 1st Round: Will Ottawa and Carolina play MORE than 5 games in a series?,sports,NO,0.01,0.01,303.0,,NO,2026-05-01T09:27:44.833059+00:00,104.55,
+Terminator2,Terminator2,Uzs8PNOANz,Will Uar Bernard get drafted in the 2026 NFL draft?,sports,NO,0.5166,0.5166,12.34,,YES,2026-05-01T09:27:44.833073+00:00,-12.34,
+Terminator2,Terminator2,9tQu6ALztp,"Will OpenAI publicly release the model codenamed 'Spud' (as GPT-5.5, GPT-6, or any other name) by May 31, 2026?",ai,YES,0.99,0.99,244.0,,YES,2026-05-01T09:27:44.833086+00:00,5.05,
+Terminator2,Terminator2,nLPdZR2d5d,Will King Charles' trip to the US be cancelled?,misc,YES,0.01,0.01,0.09,,NO,2026-05-01T09:27:44.833101+00:00,-0.09,
+Terminator2,Terminator2,ydcs5zAZ0Z,Will Carlos Alcaraz win Roland Garros?,sports,NO,0.0071,0.0071,25.0,,NO,2026-05-01T09:27:44.833116+00:00,14.95,
+Terminator2,Terminator2,6cdOSz8ncy,Will Marie Moreau appear in The Boys 4th episode?,misc,NO,0.1499,0.1499,274.94,,NO,2026-05-01T09:27:44.833130+00:00,162.56,
+Terminator2,Terminator2,dZn659gSAO,"Will Ethereum (ETH) be below $2000 on April 30, 2026?",crypto,NO,0.04,0.04,109.01,,NO,2026-05-01T09:27:44.833143+00:00,47.01,
+Terminator2,Terminator2,su6Puy2npE,"Will OpenAI officially launch any new publicly named AI model before May 1, 2026?",ai,YES,0.9898,0.9898,10.0,,YES,2026-05-01T09:27:44.833153+00:00,2.15,
+Terminator2,Terminator2,LgZNyl0Ngp,Will there be over 8 teams that trade on Day 1 of the NFL Draft?,sports,NO,0.99,0.99,23.81,,YES,2026-05-01T09:27:44.833163+00:00,-23.81,
+Terminator2,Terminator2,QgsNNzSRE0,"Will OpenAI release a super-app combining ChatGPT, Codex, and Atlass apps, before May 1 2026?",ai,NO,0.0841,0.0841,149.18,,NO,2026-05-01T09:27:44.833174+00:00,25.25,
+Terminator2,Terminator2,hhsCdPytAn,"Will The Convergence (AI agent religion) have at least 5 registered members by April 25, 2026?",ai,YES,0.9642,0.9642,350.0,,YES,2026-05-01T09:27:44.833188+00:00,46.03,
+Terminator2,Terminator2,ASngSERUPP,"Will Brent Crude Oil close above $100 on April 24th, 2026?",economics,NO,0.99,0.99,55.0,,YES,2026-05-01T09:27:44.833199+00:00,-55.0,
+Terminator2,Terminator2,AdCc2pz55Q,"How will the Supreme Court rule for Cox Communications, Inc. v. Sony Music Entertainment",politics,YES,0.9878,0.9878,80.0,,YES,2026-05-01T09:27:44.833217+00:00,41.39,
+Terminator2,Terminator2,5ztuCIqnuL,Bitcoin 60000€ at the end of april?,crypto,NO,0.99,0.99,9.88,,YES,2026-05-01T09:27:44.833233+00:00,-9.88,
+Terminator2,Terminator2,Ul8h2UzIPt,Will Polymarket launch a stablecoin before 2027?,crypto,YES,0.982,0.982,30.0,,YES,2026-05-01T09:27:44.833243+00:00,1.77,
+Terminator2,Terminator2,UIz8PINcCZ,"Will WTI crude oil be above $90/barrel on April 30, 2026?",economics,NO,0.9919,0.9919,7.73,,YES,2026-05-01T09:27:44.833254+00:00,-7.73,
+Terminator2,Terminator2,S05Q0AOctQ,"Atletico vs Arsenal, Champions League Semi Final Leg 1, April 29th",sports,NO,0.01,0.01,34.0,,NO,2026-05-01T09:27:44.833263+00:00,23.69,
+Terminator2,Terminator2,0dISdh2U5R,"Will Brent Crude Oil close above $115 on April 20th, 2026?",economics,NO,0.0286,0.0286,155.0,,NO,2026-05-01T09:27:44.833272+00:00,86.08,
+Terminator2,Terminator2,UQ90nO82uz,Will Shrek get more Wikipedia pageviews than Bitcoin in April 2026?,crypto,NO,0.089,0.089,209.0,,NO,2026-05-01T09:27:44.833309+00:00,49.91,
+Terminator2,Terminator2,NdRuqUz6O2,Will Cody Rhodes compete in either main event match at Wrestlemania 42?,sports,YES,0.872,0.872,46.0,,YES,2026-05-01T09:27:44.833321+00:00,8.2,
+Terminator2,Terminator2,50Nz2tOC6u,Will the proposed redistricting amendment in Virginia pass on April 21st?,misc,NO,0.9811,0.9811,9.41,,YES,2026-05-01T09:27:44.833333+00:00,-9.41,
+Terminator2,Terminator2,sLIyIAnLLs,Will NVDA (Nvidia) close April 2026 above $170?,economics,YES,0.99,0.99,25.0,,YES,2026-05-01T09:27:44.833344+00:00,4.19,
+Terminator2,Terminator2,l2AucNnPuc,Will JD Vance say something negative about Pope Leo XIV before May 8 2026?,crypto,YES,0.9002,0.9002,62.2,,YES,2026-05-01T09:27:44.833354+00:00,28.4,
+Terminator2,Terminator2,sLtAudcPqO,"Will the WTI Crude Oil Spot Price be above $98 on April 20, 2026?",politics,NO,0.0237,0.0237,6.84,,NO,2026-05-01T09:27:44.833365+00:00,3.38,
+Terminator2,Terminator2,AAZgNUchy8,"Will Brent Crude Oil close above $120 on April 15th, 2026?",economics,YES,0.07,0.07,6.24,,NO,2026-05-01T09:27:44.833376+00:00,-6.24,
+Terminator2,Terminator2,dcq0znuAgC,"Will the price of WTI Crude Oil experience a single-day rise of $7.00 or more before Friday, April 17?",politics,NO,0.0078,0.0078,136.0,,NO,2026-05-01T09:27:44.833387+00:00,134.84,
+Terminator2,Terminator2,C0dC652qlU,Bitcoin $76K in April?,crypto,YES,0.991,0.991,9.85,,YES,2026-05-01T09:27:44.833398+00:00,3.32,
+Terminator2,Terminator2,pyOPUy9NEg,"Will COMEX Gold (June 2026) touch $5000.00 at any point before April 25, 2026?",economics,NO,0.01,0.01,143.0,,NO,2026-05-01T09:27:44.833410+00:00,82.33,
+Terminator2,Terminator2,p8USRRU02t,Bitcoin $78K in April?,crypto,YES,0.99,0.99,33.41,,YES,2026-05-01T09:27:44.833429+00:00,77.97,
+Terminator2,Terminator2,Uy556NdlPg,Will Trump abandon the Iran war?,geopolitics,YES,0.0372,0.0372,10.51,,NO,2026-05-01T09:27:44.833440+00:00,-10.51,
+Terminator2,Terminator2,dLRPstqu9g,"Will LAUSD go on strike on April 14, 2026",misc,YES,0.0146,0.0146,64.0,,NO,2026-05-01T09:27:44.833450+00:00,-64.0,
+Terminator2,Terminator2,52ChpN99z8,[SHORT FUSE] Will the US publicly confirm that they agreed to unfreezing some of Iran's assets before April 14th?,geopolitics,NO,0.0446,0.0446,88.0,,NO,2026-05-01T09:27:44.833462+00:00,44.69,
+Terminator2,Terminator2,Q9gNdcP2lc,Will Orban (Fidesz) win the Hungarian Election on April 12th?,politics,NO,0.0083,0.0083,62.0,,NO,2026-05-01T09:27:44.833474+00:00,19.58,
+Terminator2,Terminator2,AnNp6dPyZp,Will Delta Air Lines report Q1 2026 adjusted EPS above $0.63 on April 8?,misc,YES,0.9873,0.9873,147.0,,YES,2026-05-01T09:27:44.833484+00:00,32.1,
+Terminator2,Terminator2,8hcAhqLZ5z,"Will the WTI Crude Oil Spot Price be above $100 on April 10, 2026?",politics,NO,0.1877,0.1877,67.0,,NO,2026-05-01T09:27:44.833494+00:00,74.29,
+Terminator2,Terminator2,h5cPtR9ghU,"Will the DHS partial shutdown end by April 15, 2026?",politics,NO,0.01,0.01,36.22,,NO,2026-05-01T09:27:44.833503+00:00,12.1,
+Terminator2,Terminator2,4kreogtql1,Will US inflation go above 3% before unemployment goes below 4%?,sports,NO,0.9894,0.9894,42.63,,YES,2026-05-01T09:27:44.833514+00:00,-42.63,
+Terminator2,Terminator2,c88qSPCyLl,Will Trump attack Iran's infrastructure before April 13th,geopolitics,YES,0.0356,0.0356,7.05,,NO,2026-05-01T09:27:44.833526+00:00,-7.05,
+Terminator2,Terminator2,CqptuuhR5c,Bitcoin $64K in April?,crypto,NO,0.0098,0.0098,27.18,,NO,2026-05-01T10:49:13.511774+00:00,0.3,
+Terminator2,Terminator2,llt8uhPPRA,"Will President Paul Biya of Cameroon appoint a Vice President before April 30, 2026?",politics,NO,0.112,0.112,83.16,,NO,2026-05-01T10:49:13.511787+00:00,19.0,
+Terminator2,Terminator2,Pt9psUq0gz,Will Solana (SOL) be below $86 on May 1?,crypto,YES,0.8115,0.8115,10.0,,YES,2026-05-01T10:49:13.511800+00:00,19.2,
+Terminator2,Terminator2,puRc0zg6dL,Will ChatGPT get more Wikipedia pageviews than Donald Trump in April 2026?,ai,YES,0.3602,0.3602,142.66,,YES,2026-05-01T10:49:13.511810+00:00,276.18,
+Terminator2,Terminator2,sO82POICOd,"Will Mojtaba Khamenei be first shown alive on video between April 1st and May 1, 2026?",misc,YES,0.0439,0.0439,11.47,,NO,2026-05-01T10:49:13.511821+00:00,-11.47,
+Terminator2,Terminator2,I2uZOz0Sh6,"Will a tornado outbreak occur on either April 26, 27, 28 or 29 in the USA?",misc,YES,0.9416,0.9416,125.0,,YES,2026-05-01T10:49:13.511832+00:00,55.53,
+Terminator2,Terminator2,S9ynE25Uz0,"Will the WTI Crude Oil Spot Price be above $88 on April 30, 2026?",politics,YES,0.99,0.99,272.0,,YES,2026-05-01T10:49:13.511842+00:00,51.92,
+Terminator2,Terminator2,ECzCZ8Ut8S,NHL Playoffs 2026 1st Round: Will Ottawa and Carolina play MORE than 5 games in a series?,sports,NO,0.01,0.01,303.0,,NO,2026-05-01T10:49:13.511852+00:00,104.55,
+Terminator2,Terminator2,Uzs8PNOANz,Will Uar Bernard get drafted in the 2026 NFL draft?,sports,NO,0.5166,0.5166,12.34,,YES,2026-05-01T10:49:13.511862+00:00,-12.34,
+Terminator2,Terminator2,9tQu6ALztp,"Will OpenAI publicly release the model codenamed 'Spud' (as GPT-5.5, GPT-6, or any other name) by May 31, 2026?",ai,YES,0.99,0.99,244.0,,YES,2026-05-01T10:49:13.511872+00:00,5.05,
+Terminator2,Terminator2,nLPdZR2d5d,Will King Charles' trip to the US be cancelled?,misc,YES,0.01,0.01,0.09,,NO,2026-05-01T10:49:13.511881+00:00,-0.09,
+Terminator2,Terminator2,ydcs5zAZ0Z,Will Carlos Alcaraz win Roland Garros?,sports,NO,0.0071,0.0071,25.0,,NO,2026-05-01T10:49:13.511892+00:00,14.95,
+Terminator2,Terminator2,6cdOSz8ncy,Will Marie Moreau appear in The Boys 4th episode?,misc,NO,0.1499,0.1499,274.94,,NO,2026-05-01T10:49:13.512061+00:00,162.56,
+Terminator2,Terminator2,dZn659gSAO,"Will Ethereum (ETH) be below $2000 on April 30, 2026?",crypto,NO,0.04,0.04,109.01,,NO,2026-05-01T10:49:13.512073+00:00,47.01,
+Terminator2,Terminator2,su6Puy2npE,"Will OpenAI officially launch any new publicly named AI model before May 1, 2026?",ai,YES,0.9898,0.9898,10.0,,YES,2026-05-01T10:49:13.512084+00:00,2.15,
+Terminator2,Terminator2,LgZNyl0Ngp,Will there be over 8 teams that trade on Day 1 of the NFL Draft?,sports,NO,0.99,0.99,23.81,,YES,2026-05-01T10:49:13.512094+00:00,-23.81,
+Terminator2,Terminator2,QgsNNzSRE0,"Will OpenAI release a super-app combining ChatGPT, Codex, and Atlass apps, before May 1 2026?",ai,NO,0.0841,0.0841,149.18,,NO,2026-05-01T10:49:13.512104+00:00,25.25,
+Terminator2,Terminator2,hhsCdPytAn,"Will The Convergence (AI agent religion) have at least 5 registered members by April 25, 2026?",ai,YES,0.9642,0.9642,350.0,,YES,2026-05-01T10:49:13.512113+00:00,46.03,
+Terminator2,Terminator2,ASngSERUPP,"Will Brent Crude Oil close above $100 on April 24th, 2026?",economics,NO,0.99,0.99,55.0,,YES,2026-05-01T10:49:13.512123+00:00,-55.0,
+Terminator2,Terminator2,AdCc2pz55Q,"How will the Supreme Court rule for Cox Communications, Inc. v. Sony Music Entertainment",politics,YES,0.9878,0.9878,80.0,,YES,2026-05-01T10:49:13.512133+00:00,41.39,
+Terminator2,Terminator2,5ztuCIqnuL,Bitcoin 60000€ at the end of april?,crypto,NO,0.99,0.99,9.88,,YES,2026-05-01T10:49:13.512144+00:00,-9.88,
+Terminator2,Terminator2,Ul8h2UzIPt,Will Polymarket launch a stablecoin before 2027?,crypto,YES,0.982,0.982,30.0,,YES,2026-05-01T10:49:13.512153+00:00,1.77,
+Terminator2,Terminator2,UIz8PINcCZ,"Will WTI crude oil be above $90/barrel on April 30, 2026?",economics,NO,0.9919,0.9919,7.73,,YES,2026-05-01T10:49:13.512163+00:00,-7.73,
+Terminator2,Terminator2,S05Q0AOctQ,"Atletico vs Arsenal, Champions League Semi Final Leg 1, April 29th",sports,NO,0.01,0.01,34.0,,NO,2026-05-01T10:49:13.512174+00:00,23.69,
+Terminator2,Terminator2,0dISdh2U5R,"Will Brent Crude Oil close above $115 on April 20th, 2026?",economics,NO,0.0286,0.0286,155.0,,NO,2026-05-01T10:49:13.512184+00:00,86.08,
+Terminator2,Terminator2,UQ90nO82uz,Will Shrek get more Wikipedia pageviews than Bitcoin in April 2026?,crypto,NO,0.089,0.089,209.0,,NO,2026-05-01T10:49:13.512206+00:00,49.91,
+Terminator2,Terminator2,NdRuqUz6O2,Will Cody Rhodes compete in either main event match at Wrestlemania 42?,sports,YES,0.872,0.872,46.0,,YES,2026-05-01T10:49:13.512221+00:00,8.2,
+Terminator2,Terminator2,50Nz2tOC6u,Will the proposed redistricting amendment in Virginia pass on April 21st?,misc,NO,0.9811,0.9811,9.41,,YES,2026-05-01T10:49:13.512238+00:00,-9.41,
+Terminator2,Terminator2,sLIyIAnLLs,Will NVDA (Nvidia) close April 2026 above $170?,economics,YES,0.99,0.99,25.0,,YES,2026-05-01T10:49:13.512247+00:00,4.19,
+Terminator2,Terminator2,l2AucNnPuc,Will JD Vance say something negative about Pope Leo XIV before May 8 2026?,crypto,YES,0.9002,0.9002,62.2,,YES,2026-05-01T10:49:13.512257+00:00,28.4,
+Terminator2,Terminator2,sLtAudcPqO,"Will the WTI Crude Oil Spot Price be above $98 on April 20, 2026?",politics,NO,0.0237,0.0237,6.84,,NO,2026-05-01T10:49:13.512266+00:00,3.38,
+Terminator2,Terminator2,AAZgNUchy8,"Will Brent Crude Oil close above $120 on April 15th, 2026?",economics,YES,0.07,0.07,6.24,,NO,2026-05-01T10:49:13.512276+00:00,-6.24,
+Terminator2,Terminator2,dcq0znuAgC,"Will the price of WTI Crude Oil experience a single-day rise of $7.00 or more before Friday, April 17?",politics,NO,0.0078,0.0078,136.0,,NO,2026-05-01T10:49:13.512285+00:00,134.84,
+Terminator2,Terminator2,C0dC652qlU,Bitcoin $76K in April?,crypto,YES,0.991,0.991,9.85,,YES,2026-05-01T10:49:13.512294+00:00,3.32,
+Terminator2,Terminator2,pyOPUy9NEg,"Will COMEX Gold (June 2026) touch $5000.00 at any point before April 25, 2026?",economics,NO,0.01,0.01,143.0,,NO,2026-05-01T10:49:13.512302+00:00,82.33,
+Terminator2,Terminator2,p8USRRU02t,Bitcoin $78K in April?,crypto,YES,0.99,0.99,33.41,,YES,2026-05-01T10:49:13.512309+00:00,77.97,
+Terminator2,Terminator2,Uy556NdlPg,Will Trump abandon the Iran war?,geopolitics,YES,0.0372,0.0372,10.51,,NO,2026-05-01T10:49:13.512317+00:00,-10.51,
+Terminator2,Terminator2,dLRPstqu9g,"Will LAUSD go on strike on April 14, 2026",misc,YES,0.0146,0.0146,64.0,,NO,2026-05-01T10:49:13.512325+00:00,-64.0,
+Terminator2,Terminator2,52ChpN99z8,[SHORT FUSE] Will the US publicly confirm that they agreed to unfreezing some of Iran's assets before April 14th?,geopolitics,NO,0.0446,0.0446,88.0,,NO,2026-05-01T10:49:13.512333+00:00,44.69,
+Terminator2,Terminator2,Q9gNdcP2lc,Will Orban (Fidesz) win the Hungarian Election on April 12th?,politics,NO,0.0083,0.0083,62.0,,NO,2026-05-01T10:49:13.512342+00:00,19.58,
+Terminator2,Terminator2,AnNp6dPyZp,Will Delta Air Lines report Q1 2026 adjusted EPS above $0.63 on April 8?,misc,YES,0.9873,0.9873,147.0,,YES,2026-05-01T10:49:13.512351+00:00,32.1,
+Terminator2,Terminator2,8hcAhqLZ5z,"Will the WTI Crude Oil Spot Price be above $100 on April 10, 2026?",politics,NO,0.1877,0.1877,67.0,,NO,2026-05-01T10:49:13.512361+00:00,74.29,
+Terminator2,Terminator2,h5cPtR9ghU,"Will the DHS partial shutdown end by April 15, 2026?",politics,NO,0.01,0.01,36.22,,NO,2026-05-01T10:49:13.512373+00:00,12.1,
+Terminator2,Terminator2,4kreogtql1,Will US inflation go above 3% before unemployment goes below 4%?,sports,NO,0.9894,0.9894,42.63,,YES,2026-05-01T10:49:13.512382+00:00,-42.63,
+Terminator2,Terminator2,c88qSPCyLl,Will Trump attack Iran's infrastructure before April 13th,geopolitics,YES,0.0356,0.0356,7.05,,NO,2026-05-01T10:49:13.512391+00:00,-7.05,
+Terminator2,Terminator2,8Lp0uz8pgQ,Will courts overturn Trump’s executive order on birthright citizenship in April?,politics,NO,0.05,0.0,255.0,,NO,2026-05-01T12:14:39.043182+00:00,40.94,
+Terminator2,Terminator2,CqptuuhR5c,Bitcoin $64K in April?,crypto,NO,0.0098,0.0098,27.18,,NO,2026-05-01T12:14:39.043414+00:00,0.3,
+Terminator2,Terminator2,llt8uhPPRA,"Will President Paul Biya of Cameroon appoint a Vice President before April 30, 2026?",politics,NO,0.112,0.112,83.16,,NO,2026-05-01T12:14:39.043425+00:00,19.0,
+Terminator2,Terminator2,Pt9psUq0gz,Will Solana (SOL) be below $86 on May 1?,crypto,YES,0.8115,0.8115,10.0,,YES,2026-05-01T12:14:39.043435+00:00,19.2,
+Terminator2,Terminator2,puRc0zg6dL,Will ChatGPT get more Wikipedia pageviews than Donald Trump in April 2026?,ai,YES,0.3602,0.3602,142.66,,YES,2026-05-01T12:14:39.043446+00:00,276.18,
+Terminator2,Terminator2,sO82POICOd,"Will Mojtaba Khamenei be first shown alive on video between April 1st and May 1, 2026?",misc,YES,0.0439,0.0439,11.47,,NO,2026-05-01T12:14:39.043456+00:00,-11.47,
+Terminator2,Terminator2,I2uZOz0Sh6,"Will a tornado outbreak occur on either April 26, 27, 28 or 29 in the USA?",misc,YES,0.9416,0.9416,125.0,,YES,2026-05-01T12:14:39.043466+00:00,55.53,
+Terminator2,Terminator2,S9ynE25Uz0,"Will the WTI Crude Oil Spot Price be above $88 on April 30, 2026?",politics,YES,0.99,0.99,272.0,,YES,2026-05-01T12:14:39.043479+00:00,51.92,
+Terminator2,Terminator2,ECzCZ8Ut8S,NHL Playoffs 2026 1st Round: Will Ottawa and Carolina play MORE than 5 games in a series?,sports,NO,0.01,0.01,303.0,,NO,2026-05-01T12:14:39.043489+00:00,104.55,
+Terminator2,Terminator2,Uzs8PNOANz,Will Uar Bernard get drafted in the 2026 NFL draft?,sports,NO,0.5166,0.5166,12.34,,YES,2026-05-01T12:14:39.043499+00:00,-12.34,
+Terminator2,Terminator2,9tQu6ALztp,"Will OpenAI publicly release the model codenamed 'Spud' (as GPT-5.5, GPT-6, or any other name) by May 31, 2026?",ai,YES,0.99,0.99,244.0,,YES,2026-05-01T12:14:39.043510+00:00,5.05,
+Terminator2,Terminator2,nLPdZR2d5d,Will King Charles' trip to the US be cancelled?,misc,YES,0.01,0.01,0.09,,NO,2026-05-01T12:14:39.043520+00:00,-0.09,
+Terminator2,Terminator2,ydcs5zAZ0Z,Will Carlos Alcaraz win Roland Garros?,sports,NO,0.0071,0.0071,25.0,,NO,2026-05-01T12:14:39.043530+00:00,14.95,
+Terminator2,Terminator2,6cdOSz8ncy,Will Marie Moreau appear in The Boys 4th episode?,misc,NO,0.1499,0.1499,274.94,,NO,2026-05-01T12:14:39.043540+00:00,162.56,
+Terminator2,Terminator2,dZn659gSAO,"Will Ethereum (ETH) be below $2000 on April 30, 2026?",crypto,NO,0.04,0.04,109.01,,NO,2026-05-01T12:14:39.043550+00:00,47.01,
+Terminator2,Terminator2,su6Puy2npE,"Will OpenAI officially launch any new publicly named AI model before May 1, 2026?",ai,YES,0.9898,0.9898,10.0,,YES,2026-05-01T12:14:39.043560+00:00,2.15,
+Terminator2,Terminator2,LgZNyl0Ngp,Will there be over 8 teams that trade on Day 1 of the NFL Draft?,sports,NO,0.99,0.99,23.81,,YES,2026-05-01T12:14:39.043570+00:00,-23.81,
+Terminator2,Terminator2,QgsNNzSRE0,"Will OpenAI release a super-app combining ChatGPT, Codex, and Atlass apps, before May 1 2026?",ai,NO,0.0841,0.0841,149.18,,NO,2026-05-01T12:14:39.043580+00:00,25.25,
+Terminator2,Terminator2,hhsCdPytAn,"Will The Convergence (AI agent religion) have at least 5 registered members by April 25, 2026?",ai,YES,0.9642,0.9642,350.0,,YES,2026-05-01T12:14:39.043595+00:00,46.03,
+Terminator2,Terminator2,ASngSERUPP,"Will Brent Crude Oil close above $100 on April 24th, 2026?",economics,NO,0.99,0.99,55.0,,YES,2026-05-01T12:14:39.043608+00:00,-55.0,
+Terminator2,Terminator2,AdCc2pz55Q,"How will the Supreme Court rule for Cox Communications, Inc. v. Sony Music Entertainment",politics,YES,0.9878,0.9878,80.0,,YES,2026-05-01T12:14:39.043645+00:00,41.39,
+Terminator2,Terminator2,5ztuCIqnuL,Bitcoin 60000€ at the end of april?,crypto,NO,0.99,0.99,9.88,,YES,2026-05-01T12:14:39.043656+00:00,-9.88,
+Terminator2,Terminator2,Ul8h2UzIPt,Will Polymarket launch a stablecoin before 2027?,crypto,YES,0.982,0.982,30.0,,YES,2026-05-01T12:14:39.043668+00:00,1.77,
+Terminator2,Terminator2,UIz8PINcCZ,"Will WTI crude oil be above $90/barrel on April 30, 2026?",economics,NO,0.9919,0.9919,7.73,,YES,2026-05-01T12:14:39.043678+00:00,-7.73,
+Terminator2,Terminator2,S05Q0AOctQ,"Atletico vs Arsenal, Champions League Semi Final Leg 1, April 29th",sports,NO,0.01,0.01,34.0,,NO,2026-05-01T12:14:39.043687+00:00,23.69,
+Terminator2,Terminator2,0dISdh2U5R,"Will Brent Crude Oil close above $115 on April 20th, 2026?",economics,NO,0.0286,0.0286,155.0,,NO,2026-05-01T12:14:39.043696+00:00,86.08,
+Terminator2,Terminator2,UQ90nO82uz,Will Shrek get more Wikipedia pageviews than Bitcoin in April 2026?,crypto,NO,0.089,0.089,209.0,,NO,2026-05-01T12:14:39.043726+00:00,49.91,
+Terminator2,Terminator2,NdRuqUz6O2,Will Cody Rhodes compete in either main event match at Wrestlemania 42?,sports,YES,0.872,0.872,46.0,,YES,2026-05-01T12:14:39.043736+00:00,8.2,
+Terminator2,Terminator2,50Nz2tOC6u,Will the proposed redistricting amendment in Virginia pass on April 21st?,misc,NO,0.9811,0.9811,9.41,,YES,2026-05-01T12:14:39.043745+00:00,-9.41,
+Terminator2,Terminator2,sLIyIAnLLs,Will NVDA (Nvidia) close April 2026 above $170?,economics,YES,0.99,0.99,25.0,,YES,2026-05-01T12:14:39.043754+00:00,4.19,
+Terminator2,Terminator2,l2AucNnPuc,Will JD Vance say something negative about Pope Leo XIV before May 8 2026?,crypto,YES,0.9002,0.9002,62.2,,YES,2026-05-01T12:14:39.043763+00:00,28.4,
+Terminator2,Terminator2,sLtAudcPqO,"Will the WTI Crude Oil Spot Price be above $98 on April 20, 2026?",politics,NO,0.0237,0.0237,6.84,,NO,2026-05-01T12:14:39.043772+00:00,3.38,
+Terminator2,Terminator2,AAZgNUchy8,"Will Brent Crude Oil close above $120 on April 15th, 2026?",economics,YES,0.07,0.07,6.24,,NO,2026-05-01T12:14:39.043782+00:00,-6.24,
+Terminator2,Terminator2,dcq0znuAgC,"Will the price of WTI Crude Oil experience a single-day rise of $7.00 or more before Friday, April 17?",politics,NO,0.0078,0.0078,136.0,,NO,2026-05-01T12:14:39.043791+00:00,134.84,
+Terminator2,Terminator2,C0dC652qlU,Bitcoin $76K in April?,crypto,YES,0.991,0.991,9.85,,YES,2026-05-01T12:14:39.043799+00:00,3.32,
+Terminator2,Terminator2,pyOPUy9NEg,"Will COMEX Gold (June 2026) touch $5000.00 at any point before April 25, 2026?",economics,NO,0.01,0.01,143.0,,NO,2026-05-01T12:14:39.043811+00:00,82.33,
+Terminator2,Terminator2,p8USRRU02t,Bitcoin $78K in April?,crypto,YES,0.99,0.99,33.41,,YES,2026-05-01T12:14:39.043824+00:00,77.97,
+Terminator2,Terminator2,Uy556NdlPg,Will Trump abandon the Iran war?,geopolitics,YES,0.0372,0.0372,10.51,,NO,2026-05-01T12:14:39.043835+00:00,-10.51,
+Terminator2,Terminator2,dLRPstqu9g,"Will LAUSD go on strike on April 14, 2026",misc,YES,0.0146,0.0146,64.0,,NO,2026-05-01T12:14:39.043844+00:00,-64.0,
+Terminator2,Terminator2,52ChpN99z8,[SHORT FUSE] Will the US publicly confirm that they agreed to unfreezing some of Iran's assets before April 14th?,geopolitics,NO,0.0446,0.0446,88.0,,NO,2026-05-01T12:14:39.043854+00:00,44.69,
+Terminator2,Terminator2,Q9gNdcP2lc,Will Orban (Fidesz) win the Hungarian Election on April 12th?,politics,NO,0.0083,0.0083,62.0,,NO,2026-05-01T12:14:39.043863+00:00,19.58,
+Terminator2,Terminator2,AnNp6dPyZp,Will Delta Air Lines report Q1 2026 adjusted EPS above $0.63 on April 8?,misc,YES,0.9873,0.9873,147.0,,YES,2026-05-01T12:14:39.043873+00:00,32.1,
+Terminator2,Terminator2,8hcAhqLZ5z,"Will the WTI Crude Oil Spot Price be above $100 on April 10, 2026?",politics,NO,0.1877,0.1877,67.0,,NO,2026-05-01T12:14:39.043883+00:00,74.29,
+Terminator2,Terminator2,h5cPtR9ghU,"Will the DHS partial shutdown end by April 15, 2026?",politics,NO,0.01,0.01,36.22,,NO,2026-05-01T12:14:39.043892+00:00,12.1,
+Terminator2,Terminator2,4kreogtql1,Will US inflation go above 3% before unemployment goes below 4%?,sports,NO,0.9894,0.9894,42.63,,YES,2026-05-01T12:14:39.044166+00:00,-42.63,
+Terminator2,Terminator2,c88qSPCyLl,Will Trump attack Iran's infrastructure before April 13th,geopolitics,YES,0.0356,0.0356,7.05,,NO,2026-05-01T12:14:39.044183+00:00,-7.05,
