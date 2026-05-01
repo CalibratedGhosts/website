@@ -1,8 +1,8 @@
 {
-  "exported_at": "2026-05-01T14:02:38.505952+00:00",
+  "exported_at": "2026-05-01T14:14:45.717194+00:00",
   "source_account": "CalibratedGhosts",
   "source_account_id": "Y2biJCPzfgehpcQXUQoMwXShS6j2",
-  "n_records": 93,
+  "n_records": 99,
   "schema_version": "1.0",
   "schema_notes": "Per T2 proposal + OR reply; geopolitics category added",
   "records": [
@@ -33,6 +33,21 @@
       "resolved_outcome": "N/A",
       "resolved_at": "2026-05-01T07:02:14.489000+00:00",
       "realized_pnl_mana": 0.0,
+      "platform": "manifold",
+      "agent_active_at_bet": "Archway"
+    },
+    {
+      "market_id": "u6CUtyNhUU",
+      "question": "Will ICE kill a US Citizen by the End of April 2026?",
+      "category": "politics",
+      "outcome_bet": "NO",
+      "estimate_at_bet": 0.223,
+      "market_price_at_bet": 0.29,
+      "amount_mana": 30.0,
+      "horizon_days_at_bet": 1,
+      "resolved_outcome": "NO",
+      "resolved_at": "2026-05-01T11:28:42.179000+00:00",
+      "realized_pnl_mana": 8.61,
       "platform": "manifold",
       "agent_active_at_bet": "Archway"
     },
@@ -273,6 +288,21 @@
       "resolved_outcome": "MKT",
       "resolved_at": "2026-04-30T13:23:18.119000+00:00",
       "realized_pnl_mana": -10.0,
+      "platform": "manifold",
+      "agent_active_at_bet": "Archway"
+    },
+    {
+      "market_id": "NyUUdhqRuZ",
+      "question": "3rd largest company by the end of April?",
+      "category": "economics",
+      "outcome_bet": "YES",
+      "estimate_at_bet": 0.2536,
+      "market_price_at_bet": 0.0954,
+      "amount_mana": 30.0,
+      "horizon_days_at_bet": 4,
+      "resolved_outcome": "N/A",
+      "resolved_at": "2026-05-01T11:30:54.851000+00:00",
+      "realized_pnl_mana": 0.0,
       "platform": "manifold",
       "agent_active_at_bet": "Archway"
     },
@@ -1027,6 +1057,21 @@
       "agent_active_at_bet": "Archway"
     },
     {
+      "market_id": "2Ncu6yN2nz",
+      "question": "Will Bitcoin close above $80,000 on April 30, 2026?",
+      "category": "crypto",
+      "outcome_bet": "YES",
+      "estimate_at_bet": 0.733,
+      "market_price_at_bet": 0.301,
+      "amount_mana": 100.0,
+      "horizon_days_at_bet": 12,
+      "resolved_outcome": "NO",
+      "resolved_at": "2026-05-01T10:46:03.189000+00:00",
+      "realized_pnl_mana": -100.0,
+      "platform": "manifold",
+      "agent_active_at_bet": "Archway"
+    },
+    {
       "market_id": "0dISdh2U5R",
       "question": "Will Brent Crude Oil close above $115 on April 20th, 2026?",
       "category": "commodity_price",
@@ -1400,6 +1445,51 @@
       "realized_pnl_mana": -40.0,
       "platform": "manifold",
       "agent_active_at_bet": "OpusRouting"
+    },
+    {
+      "market_id": "5UZEQtgUQh",
+      "question": "5UZEQtgUQh",
+      "category": "misc",
+      "outcome_bet": "YES",
+      "estimate_at_bet": null,
+      "market_price_at_bet": null,
+      "amount_mana": 20.0,
+      "horizon_days_at_bet": null,
+      "resolved_outcome": "YES",
+      "resolved_at": "2026-02-13T12:00:31.490000+00:00",
+      "realized_pnl_mana": 20.0,
+      "platform": "manifold",
+      "agent_active_at_bet": "Archway"
+    },
+    {
+      "market_id": "Sh9L8I2hcy",
+      "question": "Sh9L8I2hcy",
+      "category": "misc",
+      "outcome_bet": "NO",
+      "estimate_at_bet": 0.05,
+      "market_price_at_bet": null,
+      "amount_mana": 370.0,
+      "horizon_days_at_bet": null,
+      "resolved_outcome": "YES",
+      "resolved_at": "2026-04-24T21:55:37.765000+00:00",
+      "realized_pnl_mana": -370.0,
+      "platform": "manifold",
+      "agent_active_at_bet": "Archway"
+    },
+    {
+      "market_id": "2Ncu6yN2nz",
+      "question": "2Ncu6yN2nz",
+      "category": "misc",
+      "outcome_bet": "NO",
+      "estimate_at_bet": 0.05,
+      "market_price_at_bet": null,
+      "amount_mana": 296.0,
+      "horizon_days_at_bet": null,
+      "resolved_outcome": "NO",
+      "resolved_at": "2026-05-01T10:46:03.189000+00:00",
+      "realized_pnl_mana": 15.58,
+      "platform": "manifold",
+      "agent_active_at_bet": "Archway"
     }
   ]
 }

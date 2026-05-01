@@ -1,6 +1,7 @@
 source_account,agent_active_at_bet,market_id,question,category,outcome_bet,estimate_at_bet,market_price_at_bet,amount_mana,horizon_days_at_bet,resolved_outcome,resolved_at,realized_pnl_mana,platform
 CalibratedGhosts,Archway,ENchIURR8A,Price of Gold by the end of April?,commodity_price,NO,0.289,0.321,40.0,0,N/A,2026-05-01T07:02:14.489000+00:00,0.0,manifold
 CalibratedGhosts,Archway,ENchIURR8A,Price of Gold by the end of April?,commodity_price,NO,0.321,0.349,30.0,0,N/A,2026-05-01T07:02:14.489000+00:00,0.0,manifold
+CalibratedGhosts,Archway,u6CUtyNhUU,Will ICE kill a US Citizen by the End of April 2026?,politics,NO,0.223,0.29,30.0,1,NO,2026-05-01T11:28:42.179000+00:00,8.61,manifold
 CalibratedGhosts,Archway,llt8uhPPRA,"Will President Paul Biya of Cameroon appoint a Vice President before April 30, 2026?",geopolitics,YES,0.159,0.0902,120.0,0,NO,2026-04-30T11:54:46.614000+00:00,-120.0,manifold
 CalibratedGhosts,Archway,qgQOAZh6tg,"Will the US national average gas price exceed $4.25/gallon on April 30, 2026?",economics,NO,0.5,0.671,30.0,1,YES,2026-04-30T23:07:22.984000+00:00,-30.0,manifold
 CalibratedGhosts,Archway,UEOEIUEuyu,Will gas hit ___ by end of April?,economics,NO,0.744,0.87,50.0,0,MKT,2026-04-30T13:23:18.119000+00:00,-50.0,manifold
@@ -17,6 +18,7 @@ CalibratedGhosts,Archway,lN860slzhS,"Will Trump invoke the Insurrection Act by A
 CalibratedGhosts,Archway,d6d6zngPcZ,Will the S&P500 be within 1% of all time high at the end of Apr 2026?,economics,YES,0.893,0.79,75.0,4,YES,2026-04-30T23:45:08.771000+00:00,8.99,manifold
 CalibratedGhosts,Archway,dNRgU9hUlA,2nd largest company end of April 2026?,economics,YES,0.1595,0.0776,80.0,4,N/A,2026-04-30T20:22:24.629000+00:00,0.0,manifold
 CalibratedGhosts,Archway,UEOEIUEuyu,Will gas hit ___ by end of April?,economics,NO,0.138,0.142,10.0,4,MKT,2026-04-30T13:23:18.119000+00:00,-10.0,manifold
+CalibratedGhosts,Archway,NyUUdhqRuZ,3rd largest company by the end of April?,economics,YES,0.2536,0.0954,30.0,4,N/A,2026-05-01T11:30:54.851000+00:00,0.0,manifold
 CalibratedGhosts,Archway,S2lg9CppuR,3rd largest company end of April 2026?,economics,YES,0.1739,0.0902,80.0,4,N/A,2026-04-30T20:22:48.784000+00:00,0.0,manifold
 CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.858,0.844,15.0,4,MKT,2026-04-30T20:35:11.271000+00:00,2.48,manifold
 CalibratedGhosts,Archway,S9ynE25Uz0,"Will the WTI Crude Oil Spot Price be above $88 on April 30, 2026?",commodity_price,YES,0.827,0.825,15.0,4,YES,2026-05-01T03:26:58.572000+00:00,3.14,manifold
@@ -67,6 +69,7 @@ CalibratedGhosts,Archway,LgyP9tA8OC,Will Drake drop iceman in April 2026?,misc,N
 CalibratedGhosts,Archway,ENchIURR8A,Price of Gold by the end of April?,commodity_price,YES,0.283,0.175,40.0,12,N/A,2026-05-01T07:02:14.489000+00:00,0.0,manifold
 CalibratedGhosts,Archway,QsQUZ22Z28,Will Trump attempt to fire Jerome Powell before May 2026?,politics,YES,0.144,0.075,75.0,12,NO,2026-05-01T02:12:41.299000+00:00,-75.0,manifold
 CalibratedGhosts,Archway,590POQhAnz,Will the S&P 500 be greater than or equal to X at the end of April 2026?,economics,YES,0.589,0.486,25.0,12,MKT,2026-04-30T20:35:11.271000+00:00,17.44,manifold
+CalibratedGhosts,Archway,2Ncu6yN2nz,"Will Bitcoin close above $80,000 on April 30, 2026?",crypto,YES,0.733,0.301,100.0,12,NO,2026-05-01T10:46:03.189000+00:00,-100.0,manifold
 CalibratedGhosts,Archway,0dISdh2U5R,"Will Brent Crude Oil close above $115 on April 20th, 2026?",commodity_price,NO,0.054,0.122,150.0,2,NO,2026-04-21T13:37:04.503000+00:00,8.56,manifold
 CalibratedGhosts,Archway,sLIyIAnLLs,Will NVDA (Nvidia) close April 2026 above $170?,economics,YES,0.917,0.869,75.0,12,YES,2026-04-30T23:07:26.537000+00:00,6.79,manifold
 CalibratedGhosts,Archway,5UZEQtgUQh,Chelyabinsk >-15C Feb 13,misc,YES,0.886,0.878,10.0,1,YES,2026-02-13T12:00:31.490000+00:00,1.29,manifold
@@ -92,6 +95,9 @@ CalibratedGhosts,Trellis,Ehu8pd5PLP,Clawdbot exfiltration proven by end Feb,misc
 CalibratedGhosts,Archway,8y9hsccOnU,Claude 5 released before March 31?,ai,NO,0.626,0.638,20.0,50,NO,2026-04-01T08:41:33.706000+00:00,33.48,manifold
 CalibratedGhosts,OpusRouting,8y9hsccOnU,Claude 5 before March 31,ai,NO,0.568,0.596,50.0,50,NO,2026-04-01T08:41:33.706000+00:00,65.74,manifold
 CalibratedGhosts,OpusRouting,RzgZnOn220,Super Bowl LX viewership record,sports,YES,0.288,0.174,40.0,0,NO,2026-02-11T02:02:22.690000+00:00,-40.0,manifold
+CalibratedGhosts,Archway,5UZEQtgUQh,5UZEQtgUQh,misc,YES,,,20.0,,YES,2026-02-13T12:00:31.490000+00:00,20.0,manifold
+CalibratedGhosts,Archway,Sh9L8I2hcy,Sh9L8I2hcy,misc,NO,0.05,,370.0,,YES,2026-04-24T21:55:37.765000+00:00,-370.0,manifold
+CalibratedGhosts,Archway,2Ncu6yN2nz,2Ncu6yN2nz,misc,NO,0.05,,296.0,,NO,2026-05-01T10:46:03.189000+00:00,15.58,manifold
 Terminator2,Terminator2,llt8uhPPRA,"Will President Paul Biya of Cameroon appoint a Vice President before April 30, 2026?",politics,NO,0.112,0.112,83.16,,NO,2026-05-01T06:57:58.565355+00:00,19.0,
 Terminator2,Terminator2,Pt9psUq0gz,Will Solana (SOL) be below $86 on May 1?,crypto,YES,0.8115,0.8115,10.0,,YES,2026-05-01T06:57:58.565367+00:00,19.2,
 Terminator2,Terminator2,puRc0zg6dL,Will ChatGPT get more Wikipedia pageviews than Donald Trump in April 2026?,ai,YES,0.3602,0.3602,142.66,,YES,2026-05-01T06:57:58.565378+00:00,276.18,
