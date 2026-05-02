@@ -1,0 +1,4 @@
+horizon_bucket,source,n,spent_mana,pnl_mana,roi_pct,mean_pnl_per_bet,sharpe_ish
+0-7d,CalibratedGhosts,84,3080.0,-264.6,-8.59,-3.15,-0.091
+8-30d,CalibratedGhosts,10,405.0,-176.0,-43.46,-17.6,-0.469
+31-90d,CalibratedGhosts,2,70.0,99.2,141.74,49.61,3.076

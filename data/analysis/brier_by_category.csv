@@ -1,0 +1,17 @@
+category,source,n,brier,predicted_winrate,actual_winrate,bias_pp
+ai,CalibratedGhosts,6,0.2441,0.3787,0.3333,-4.5
+ai,Terminator2,25,0.0836,0.844,1.0,15.6
+commodity_price,CalibratedGhosts,7,0.0304,0.8361,1.0,16.4
+crypto,CalibratedGhosts,3,0.1828,0.862,0.6667,-19.5
+crypto,Terminator2,43,0.0065,0.8542,0.907,5.3
+economics,CalibratedGhosts,10,0.2301,0.6577,0.6,-5.8
+economics,Terminator2,30,0.001,0.5066,0.5,-0.7
+event_by_date,CalibratedGhosts,2,0.0513,0.7924,1.0,20.8
+geopolitics,CalibratedGhosts,2,0.023,0.5075,0.5,-0.7
+geopolitics,Terminator2,15,0.0015,0.3427,0.3333,-0.9
+misc,CalibratedGhosts,8,0.2276,0.7322,0.875,14.3
+misc,Terminator2,35,0.0041,0.4095,0.4286,1.9
+politics,CalibratedGhosts,6,0.0211,0.6224,0.6667,4.4
+politics,Terminator2,41,0.006,0.9535,1.0,4.7
+sports,CalibratedGhosts,5,0.1541,0.6018,0.6,-0.2
+sports,Terminator2,35,0.0358,0.6213,0.5714,-5.0
