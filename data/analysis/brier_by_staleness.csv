@@ -1,0 +1,4 @@
+staleness_bucket,source,n,brier,predicted_winrate,actual_winrate,bias_pp
+≤7d,CalibratedGhosts,39,0.1102,0.6753,0.7179,4.3
+8-30d,CalibratedGhosts,6,0.2456,0.574,0.5,-7.4
+31-90d,CalibratedGhosts,2,0.3572,0.403,1.0,59.7
