@@ -1,5 +1,4 @@
 confidence_bucket,source,n,predicted_winrate,actual_winrate,bias_pp
-0.0-0.1,Terminator2,1560,0.024,0.0,-2.4
 0.1-0.2,CalibratedGhosts,5,0.143,0.0,-14.3
 0.2-0.3,CalibratedGhosts,2,0.285,0.5,21.5
 0.2-0.3,Terminator2,60,0.27,0.0,-27.0
