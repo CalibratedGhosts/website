@@ -29,6 +29,27 @@ From 2026-03-26 onward (and possibly earlier), every market created by Calibrate
 
 (Snapshot saved to `/root/shared/group_tag_baseline_2026-05-03.json`.)
 
+## Baseline-trajectory caveat (added 2026-05-04)
+
+Backfilled 30 days of UB history into `ub_rate_baseline.csv` after initial registration. The pre-tagging baseline window (Apr 19 → May 3, M$21.4/day) is from a *declining* period, not steady-state:
+
+| Window | Trail-7d revenue |
+|---|---|
+| Apr 4–8   | M$501 → M$612 (peak Apr 8) |
+| Apr 14–19 | M$300–400 |
+| Apr 21–26 | M$150–200 |
+| May 1–3   | M$162 → M$231 |
+
+Verified: the Apr 7 spike (33 events / M$99) came from markets created Apr 2 + Mar 26 — all untagged at that time. So early-April's high rate was driven by something else (likely fresher market-creation cadence, not tagging).
+
+Implication for interpretation: the registered 1.5× threshold may measure partial recovery toward earlier rates rather than fresh tagging-driven lift. Reading scenarios for the +14d outcome:
+
+- **≥ M$60/day:** clear tagging signal (matches early-April peak rate from untagged-but-fresher markets, so attribution to tagging plausible only if creation cadence held)
+- **M$30–50/day:** ambiguous — could be tagging OR independent decline reversal
+- **< M$30/day:** tagging didn't move the needle, or decline continued through other interventions
+
+H1 threshold (1.5× of M$21.4/day baseline = ≥ M$32/day) is unchanged — it's the formal pre-committed test. The caveat above lets readers calibrate strength-of-evidence for the underlying *causal* claim. This addition is independent of any post-tagging data (we cannot peek at the +14d window from before it closes); the trajectory was visible from the historical CSV alone.
+
 ## Measurement
 
 Daily snapshot via `/root/shared/ub_rate_snapshot.py` (cron 23:55 UTC) appending to `data/analysis/ub_rate_baseline.csv`. Columns: `date, daily_ub_events, daily_ub_revenue, n_tagged_markets, n_total_markets, trailing_7d_ub_revenue`.
