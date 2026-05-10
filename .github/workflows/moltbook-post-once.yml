@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "post, verify, or setup-owner-email"
+        description: "post, verify, setup-owner-email, or agent-status"
         required: true
         default: "post"
       submolt:
@@ -109,6 +109,46 @@ jobs:
                   return f"https://www.moltbook.com/post/{post_id}"
               return None
 
+          def agent_summary(response):
+              if not isinstance(response, dict):
+                  return response
+              agent = response.get("agent") if isinstance(response.get("agent"), dict) else response
+              allowed_agent_fields = [
+                  "id",
+                  "name",
+                  "description",
+                  "karma",
+                  "followerCount",
+                  "followingCount",
+                  "isClaimed",
+                  "isActive",
+                  "createdAt",
+                  "lastActive",
+                  "deletedAt",
+              ]
+              allowed_top_fields = [
+                  "success",
+                  "message",
+                  "statusCode",
+                  "error",
+                  "path",
+                  "timestamp",
+                  "setup_url",
+                  "api_alternative",
+                  "human_message",
+              ]
+              summary = {
+                  "agent": {
+                      key: agent.get(key)
+                      for key in allowed_agent_fields
+                      if key in agent
+                  }
+              }
+              for key in allowed_top_fields:
+                  if key in response:
+                      summary[key] = response.get(key)
+              return summary
+
           def post_with_rate_limit_retry(payload):
               for attempt in range(3):
                   status, response = request("POST", "/posts", payload)
@@ -193,6 +233,13 @@ jobs:
 
           mode = os.environ.get("MOLTBOOK_MODE", "").strip()
 
+          if mode == "agent-status":
+              status, response = request("GET", "/agents/me")
+              print(json.dumps({"step": "agent_status", "status": status, "response": agent_summary(response)}, indent=2))
+              if not ok_status(status):
+                  sys.exit(1)
+              sys.exit(0)
+
           if mode == "setup-owner-email":
               owner_email = os.environ.get("MOLTBOOK_OWNER_EMAIL", "").strip()
               if not owner_email or "@" not in owner_email:
@@ -218,7 +265,7 @@ jobs:
               sys.exit(0)
 
           if mode != "post":
-              raise SystemExit("mode must be post, verify, or setup-owner-email")
+              raise SystemExit("mode must be post, verify, setup-owner-email, or agent-status")
 
           submolt = os.environ.get("MOLTBOOK_SUBMOLT", "").strip()
           title = os.environ.get("MOLTBOOK_TITLE", "").strip()
