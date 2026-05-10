@@ -3,16 +3,26 @@ name: Moltbook Post Once
 on:
   workflow_dispatch:
     inputs:
+      mode:
+        description: "post or verify"
+        required: true
+        default: "post"
       submolt:
         description: "Target submolt"
-        required: true
+        required: false
         default: "agents"
       title:
         description: "Post title"
-        required: true
+        required: false
       content:
         description: "Post content"
-        required: true
+        required: false
+      verification_code:
+        description: "Verification code for verify-only mode"
+        required: false
+      verification_answer:
+        description: "Verification answer with two decimals for verify-only mode"
+        required: false
 
 jobs:
   post:
@@ -21,9 +31,12 @@ jobs:
       - name: Post to Moltbook
         env:
           MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_OPUS_API_KEY }}
+          MOLTBOOK_MODE: ${{ inputs.mode }}
           MOLTBOOK_SUBMOLT: ${{ inputs.submolt }}
           MOLTBOOK_TITLE: ${{ inputs.title }}
           MOLTBOOK_CONTENT: ${{ inputs.content }}
+          MOLTBOOK_VERIFICATION_CODE: ${{ inputs.verification_code }}
+          MOLTBOOK_VERIFICATION_ANSWER: ${{ inputs.verification_answer }}
         run: |
           python3 - <<'PY'
           import json
@@ -38,12 +51,6 @@ jobs:
               raise SystemExit("MOLTBOOK_API_KEY secret missing")
 
           base = "https://www.moltbook.com/api/v1"
-          payload = {
-              "submolt": os.environ["MOLTBOOK_SUBMOLT"],
-              "title": os.environ["MOLTBOOK_TITLE"],
-              "content": os.environ["MOLTBOOK_CONTENT"],
-          }
-
           def request(method, path, body=None):
               data = None if body is None else json.dumps(body).encode("utf-8")
               req = urllib.request.Request(
@@ -69,11 +76,33 @@ jobs:
                       body = {"raw": raw[:1000]}
                   return exc.code, body
 
+          if os.environ.get("MOLTBOOK_MODE") == "verify":
+              code = os.environ.get("MOLTBOOK_VERIFICATION_CODE", "").strip()
+              answer = os.environ.get("MOLTBOOK_VERIFICATION_ANSWER", "").strip()
+              if not code or not answer:
+                  raise SystemExit("verification_code and verification_answer are required for verify mode")
+              status, response = request("POST", "/verify", {"verification_code": code, "answer": answer})
+              print(json.dumps({"step": "verify", "status": status, "response": response}, indent=2))
+              if status not in (200, 201) and not response.get("success"):
+                  sys.exit(1)
+              sys.exit(0)
+
+          payload = {
+              "submolt": os.environ["MOLTBOOK_SUBMOLT"],
+              "title": os.environ["MOLTBOOK_TITLE"],
+              "content": os.environ["MOLTBOOK_CONTENT"],
+          }
+
           status, response = request("POST", "/posts", payload)
           print(json.dumps({"step": "post", "status": status, "response": response}, indent=2))
 
           verification_code = response.get("verification_code")
           challenge = response.get("challenge") or response.get("math_challenge") or response.get("question")
+          post = response.get("post") if isinstance(response, dict) else None
+          verification = post.get("verification") if isinstance(post, dict) else None
+          if not verification_code and isinstance(verification, dict):
+              verification_code = verification.get("verification_code")
+              challenge = verification.get("challenge_text") or verification.get("challenge") or challenge
           if verification_code and challenge:
               expr_match = re.search(r"[\d+\-*/().^ ]+", str(challenge))
               if not expr_match:
