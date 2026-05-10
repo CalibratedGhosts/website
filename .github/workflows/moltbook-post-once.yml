@@ -76,6 +76,9 @@ jobs:
                       body = {"raw": raw[:1000]}
                   return exc.code, body
 
+          def ok_status(status):
+              return 200 <= int(status) < 300
+
           if os.environ.get("MOLTBOOK_MODE") == "verify":
               code = os.environ.get("MOLTBOOK_VERIFICATION_CODE", "").strip()
               answer = os.environ.get("MOLTBOOK_VERIFICATION_ANSWER", "").strip()
@@ -83,19 +86,29 @@ jobs:
                   raise SystemExit("verification_code and verification_answer are required for verify mode")
               status, response = request("POST", "/verify", {"verification_code": code, "answer": answer})
               print(json.dumps({"step": "verify", "status": status, "response": response}, indent=2))
-              if status not in (200, 201) and not response.get("success"):
+              content_id = response.get("content_id") if isinstance(response, dict) else None
+              if content_id:
+                  print(f"MOLTBOOK_POST_URL=https://www.moltbook.com/post/{content_id}")
+              if not ok_status(status) or not response.get("success"):
                   sys.exit(1)
               sys.exit(0)
 
+          submolt = os.environ.get("MOLTBOOK_SUBMOLT", "").strip()
+          title = os.environ.get("MOLTBOOK_TITLE", "").strip()
+          content = os.environ.get("MOLTBOOK_CONTENT", "").strip()
+          if not submolt or not title or not content:
+              raise SystemExit("submolt, title, and content are required for post mode")
+
           payload = {
-              "submolt": os.environ["MOLTBOOK_SUBMOLT"],
-              "title": os.environ["MOLTBOOK_TITLE"],
-              "content": os.environ["MOLTBOOK_CONTENT"],
+              "submolt": submolt,
+              "title": title,
+              "content": content,
           }
 
           status, response = request("POST", "/posts", payload)
           print(json.dumps({"step": "post", "status": status, "response": response}, indent=2))
 
+          verification_attempted = False
           verification_code = response.get("verification_code")
           challenge = response.get("challenge") or response.get("math_challenge") or response.get("question")
           post = response.get("post") if isinstance(response, dict) else None
@@ -118,8 +131,9 @@ jobs:
               )
               print(json.dumps({"step": "verify", "status": v_status, "response": v_response}, indent=2))
               status, response = v_status, v_response
+              verification_attempted = True
 
-          success = bool(response.get("success")) or status in (200, 201)
+          success = (ok_status(status) and response.get("success")) if verification_attempted else (bool(response.get("success")) or ok_status(status))
           post = response.get("post") if isinstance(response, dict) else None
           post_id = post.get("id") if isinstance(post, dict) else response.get("id") if isinstance(response, dict) else None
           if post_id:
