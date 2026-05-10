@@ -24,6 +24,10 @@ on:
         description: "Verification answer with two decimals for verify-only mode"
         required: false
 
+concurrency:
+  group: moltbook-post-once-${{ inputs.mode }}
+  cancel-in-progress: false
+
 jobs:
   post:
     runs-on: ubuntu-latest
@@ -114,6 +118,59 @@ jobs:
                   time.sleep(delay + 2)
               return status, response
 
+          def parse_challenge_answer(challenge):
+              text = str(challenge)
+              numeric = re.search(r"\d+(?:\s*[-+*/^]\s*\d+)+", text)
+              if numeric:
+                  expr = numeric.group(0).strip().replace("^", "**")
+                  if re.fullmatch(r"[\d+\-*/().* ]+", expr):
+                      return f"{float(eval(expr, {'__builtins__': {}}, {})):.2f}"
+
+              compact = re.sub(r"[^a-z]+", "", text.lower())
+              number_words = [
+                  ("ninety", 90),
+                  ("eighty", 80),
+                  ("seventy", 70),
+                  ("sixty", 60),
+                  ("fiftyfive", 55),
+                  ("fifftyfive", 55),
+                  ("fifty", 50),
+                  ("fiffty", 50),
+                  ("forty", 40),
+                  ("thirtyfive", 35),
+                  ("thirty", 30),
+                  ("twenty", 20),
+                  ("twelve", 12),
+                  ("eleven", 11),
+                  ("ten", 10),
+                  ("nine", 9),
+                  ("eight", 8),
+                  ("seven", 7),
+                  ("six", 6),
+                  ("five", 5),
+                  ("four", 4),
+                  ("three", 3),
+                  ("two", 2),
+                  ("one", 1),
+                  ("zero", 0),
+              ]
+              matches = []
+              for word, value in number_words:
+                  for match in re.finditer(re.escape(word), compact):
+                      matches.append((match.start(), match.end(), value))
+              matches.sort(key=lambda item: (item[0], -(item[1] - item[0])))
+
+              values = []
+              occupied = []
+              for start, end, value in matches:
+                  if any(not (end <= used_start or used_end <= start) for used_start, used_end in occupied):
+                      continue
+                  values.append(value)
+                  occupied.append((start, end))
+              if len(values) >= 2:
+                  return f"{float(sum(values[:2])):.2f}"
+              raise SystemExit("Verification challenge could not be parsed")
+
           if os.environ.get("MOLTBOOK_MODE") == "verify":
               code = os.environ.get("MOLTBOOK_VERIFICATION_CODE", "").strip()
               answer = os.environ.get("MOLTBOOK_VERIFICATION_ANSWER", "").strip()
@@ -143,21 +200,15 @@ jobs:
           status, response = post_with_rate_limit_retry(payload)
 
           verification_attempted = False
-          verification_code = response.get("verification_code")
-          challenge = response.get("challenge") or response.get("math_challenge") or response.get("question")
+          verification_code = response.get("verification_code") if isinstance(response, dict) else None
+          challenge = (response.get("challenge") or response.get("math_challenge") or response.get("question")) if isinstance(response, dict) else None
           post = response.get("post") if isinstance(response, dict) else None
           verification = post.get("verification") if isinstance(post, dict) else None
           if not verification_code and isinstance(verification, dict):
               verification_code = verification.get("verification_code")
               challenge = verification.get("challenge_text") or verification.get("challenge") or challenge
           if verification_code and challenge:
-              expr_match = re.search(r"[\d+\-*/().^ ]+", str(challenge))
-              if not expr_match:
-                  raise SystemExit("Verification challenge could not be parsed")
-              expr = expr_match.group(0).strip().replace("^", "**")
-              if not re.fullmatch(r"[\d+\-*/().* ]+", expr):
-                  raise SystemExit("Verification challenge had unexpected characters")
-              answer = f"{float(eval(expr, {'__builtins__': {}}, {})):.2f}"
+              answer = parse_challenge_answer(challenge)
               v_status, v_response = request(
                   "POST",
                   "/verify",
@@ -169,7 +220,7 @@ jobs:
 
           success = (
               (ok_status(status) and response.get("success")) or already_answered(status, response)
-          ) if verification_attempted else (bool(response.get("success")) or ok_status(status))
+          ) if verification_attempted else (isinstance(response, dict) and (bool(response.get("success")) or ok_status(status)))
           post_url = post_url_from_response(response)
           if post_url:
               print(f"MOLTBOOK_POST_URL={post_url}")
