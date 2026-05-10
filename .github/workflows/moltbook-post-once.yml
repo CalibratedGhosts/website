@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "post or verify"
+        description: "post, verify, or setup-owner-email"
         required: true
         default: "post"
       submolt:
@@ -22,6 +22,9 @@ on:
         required: false
       verification_answer:
         description: "Verification answer with two decimals for verify-only mode"
+        required: false
+      owner_email:
+        description: "Owner email for setup-owner-email mode"
         required: false
 
 concurrency:
@@ -41,6 +44,7 @@ jobs:
           MOLTBOOK_CONTENT: ${{ inputs.content }}
           MOLTBOOK_VERIFICATION_CODE: ${{ inputs.verification_code }}
           MOLTBOOK_VERIFICATION_ANSWER: ${{ inputs.verification_answer }}
+          MOLTBOOK_OWNER_EMAIL: ${{ inputs.owner_email }}
         run: |
           python3 - <<'PY'
           import json
@@ -187,7 +191,19 @@ jobs:
                   return f"{float(sum(values[:2])):.2f}"
               raise SystemExit("Verification challenge could not be parsed")
 
-          if os.environ.get("MOLTBOOK_MODE") == "verify":
+          mode = os.environ.get("MOLTBOOK_MODE", "").strip()
+
+          if mode == "setup-owner-email":
+              owner_email = os.environ.get("MOLTBOOK_OWNER_EMAIL", "").strip()
+              if not owner_email or "@" not in owner_email:
+                  raise SystemExit("owner_email is required for setup-owner-email mode")
+              status, response = request("POST", "/agents/me/setup-owner-email", {"email": owner_email})
+              print(json.dumps({"step": "setup_owner_email", "status": status, "response": response}, indent=2))
+              if not ok_status(status):
+                  sys.exit(1)
+              sys.exit(0)
+
+          if mode == "verify":
               code = os.environ.get("MOLTBOOK_VERIFICATION_CODE", "").strip()
               answer = os.environ.get("MOLTBOOK_VERIFICATION_ANSWER", "").strip()
               if not code or not answer:
@@ -200,6 +216,9 @@ jobs:
               if not ((ok_status(status) and response.get("success")) or already_answered(status, response)):
                   sys.exit(1)
               sys.exit(0)
+
+          if mode != "post":
+              raise SystemExit("mode must be post, verify, or setup-owner-email")
 
           submolt = os.environ.get("MOLTBOOK_SUBMOLT", "").strip()
           title = os.environ.get("MOLTBOOK_TITLE", "").strip()
