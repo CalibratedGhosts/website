@@ -43,6 +43,7 @@ jobs:
           import os
           import re
           import sys
+          import time
           import urllib.error
           import urllib.request
 
@@ -51,6 +52,7 @@ jobs:
               raise SystemExit("MOLTBOOK_API_KEY secret missing")
 
           base = "https://www.moltbook.com/api/v1"
+
           def request(method, path, body=None):
               data = None if body is None else json.dumps(body).encode("utf-8")
               req = urllib.request.Request(
@@ -79,6 +81,39 @@ jobs:
           def ok_status(status):
               return 200 <= int(status) < 300
 
+          def already_answered(status, response):
+              if int(status) != 409 or not isinstance(response, dict):
+                  return False
+              message = str(response.get("message", "")).lower()
+              return "already answered" in message and bool(response.get("content_id"))
+
+          def post_url_from_response(response):
+              if not isinstance(response, dict):
+                  return None
+              post = response.get("post")
+              if isinstance(post, dict) and post.get("id"):
+                  return f"https://www.moltbook.com/post/{post['id']}"
+              content_id = response.get("content_id")
+              if content_id:
+                  return f"https://www.moltbook.com/post/{content_id}"
+              post_id = response.get("id")
+              if post_id:
+                  return f"https://www.moltbook.com/post/{post_id}"
+              return None
+
+          def post_with_rate_limit_retry(payload):
+              for attempt in range(3):
+                  status, response = request("POST", "/posts", payload)
+                  print(json.dumps({"step": "post", "attempt": attempt + 1, "status": status, "response": response}, indent=2))
+                  if int(status) != 429 or not isinstance(response, dict):
+                      return status, response
+                  delay = int(response.get("retry_after_seconds") or 0)
+                  if delay <= 0 or delay > 180 or attempt == 2:
+                      return status, response
+                  print(json.dumps({"step": "rate_limit_sleep", "seconds": delay + 2}, indent=2))
+                  time.sleep(delay + 2)
+              return status, response
+
           if os.environ.get("MOLTBOOK_MODE") == "verify":
               code = os.environ.get("MOLTBOOK_VERIFICATION_CODE", "").strip()
               answer = os.environ.get("MOLTBOOK_VERIFICATION_ANSWER", "").strip()
@@ -86,10 +121,10 @@ jobs:
                   raise SystemExit("verification_code and verification_answer are required for verify mode")
               status, response = request("POST", "/verify", {"verification_code": code, "answer": answer})
               print(json.dumps({"step": "verify", "status": status, "response": response}, indent=2))
-              content_id = response.get("content_id") if isinstance(response, dict) else None
-              if content_id:
-                  print(f"MOLTBOOK_POST_URL=https://www.moltbook.com/post/{content_id}")
-              if not ok_status(status) or not response.get("success"):
+              post_url = post_url_from_response(response)
+              if post_url:
+                  print(f"MOLTBOOK_POST_URL={post_url}")
+              if not ((ok_status(status) and response.get("success")) or already_answered(status, response)):
                   sys.exit(1)
               sys.exit(0)
 
@@ -105,8 +140,7 @@ jobs:
               "content": content,
           }
 
-          status, response = request("POST", "/posts", payload)
-          print(json.dumps({"step": "post", "status": status, "response": response}, indent=2))
+          status, response = post_with_rate_limit_retry(payload)
 
           verification_attempted = False
           verification_code = response.get("verification_code")
@@ -133,11 +167,12 @@ jobs:
               status, response = v_status, v_response
               verification_attempted = True
 
-          success = (ok_status(status) and response.get("success")) if verification_attempted else (bool(response.get("success")) or ok_status(status))
-          post = response.get("post") if isinstance(response, dict) else None
-          post_id = post.get("id") if isinstance(post, dict) else response.get("id") if isinstance(response, dict) else None
-          if post_id:
-              print(f"MOLTBOOK_POST_URL=https://www.moltbook.com/post/{post_id}")
+          success = (
+              (ok_status(status) and response.get("success")) or already_answered(status, response)
+          ) if verification_attempted else (bool(response.get("success")) or ok_status(status))
+          post_url = post_url_from_response(response)
+          if post_url:
+              print(f"MOLTBOOK_POST_URL={post_url}")
           if not success:
               sys.exit(1)
           PY
