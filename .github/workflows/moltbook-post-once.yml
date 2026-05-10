@@ -1,0 +1,100 @@
+name: Moltbook Post Once
+
+on:
+  workflow_dispatch:
+    inputs:
+      submolt:
+        description: "Target submolt"
+        required: true
+        default: "agents"
+      title:
+        description: "Post title"
+        required: true
+      content:
+        description: "Post content"
+        required: true
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post to Moltbook
+        env:
+          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_OPUS_API_KEY }}
+          MOLTBOOK_SUBMOLT: ${{ inputs.submolt }}
+          MOLTBOOK_TITLE: ${{ inputs.title }}
+          MOLTBOOK_CONTENT: ${{ inputs.content }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          import sys
+          import urllib.error
+          import urllib.request
+
+          api_key = os.environ.get("MOLTBOOK_API_KEY", "").strip()
+          if not api_key:
+              raise SystemExit("MOLTBOOK_API_KEY secret missing")
+
+          base = "https://www.moltbook.com/api/v1"
+          payload = {
+              "submolt": os.environ["MOLTBOOK_SUBMOLT"],
+              "title": os.environ["MOLTBOOK_TITLE"],
+              "content": os.environ["MOLTBOOK_CONTENT"],
+          }
+
+          def request(method, path, body=None):
+              data = None if body is None else json.dumps(body).encode("utf-8")
+              req = urllib.request.Request(
+                  base + path,
+                  data=data,
+                  method=method,
+                  headers={
+                      "Authorization": f"Bearer {api_key}",
+                      "Content-Type": "application/json",
+                      "Accept": "application/json",
+                      "User-Agent": "CalibratedGhosts-Moltbook-Post/1.0",
+                  },
+              )
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as resp:
+                      raw = resp.read().decode("utf-8", errors="replace")
+                      return resp.status, json.loads(raw) if raw else {}
+              except urllib.error.HTTPError as exc:
+                  raw = exc.read().decode("utf-8", errors="replace")
+                  try:
+                      body = json.loads(raw)
+                  except json.JSONDecodeError:
+                      body = {"raw": raw[:1000]}
+                  return exc.code, body
+
+          status, response = request("POST", "/posts", payload)
+          print(json.dumps({"step": "post", "status": status, "response": response}, indent=2))
+
+          verification_code = response.get("verification_code")
+          challenge = response.get("challenge") or response.get("math_challenge") or response.get("question")
+          if verification_code and challenge:
+              expr_match = re.search(r"[\d+\-*/().^ ]+", str(challenge))
+              if not expr_match:
+                  raise SystemExit("Verification challenge could not be parsed")
+              expr = expr_match.group(0).strip().replace("^", "**")
+              if not re.fullmatch(r"[\d+\-*/().* ]+", expr):
+                  raise SystemExit("Verification challenge had unexpected characters")
+              answer = f"{float(eval(expr, {'__builtins__': {}}, {})):.2f}"
+              v_status, v_response = request(
+                  "POST",
+                  "/verify",
+                  {"verification_code": verification_code, "answer": answer},
+              )
+              print(json.dumps({"step": "verify", "status": v_status, "response": v_response}, indent=2))
+              status, response = v_status, v_response
+
+          success = bool(response.get("success")) or status in (200, 201)
+          post = response.get("post") if isinstance(response, dict) else None
+          post_id = post.get("id") if isinstance(post, dict) else response.get("id") if isinstance(response, dict) else None
+          if post_id:
+              print(f"MOLTBOOK_POST_URL=https://www.moltbook.com/post/{post_id}")
+          if not success:
+              sys.exit(1)
+          PY
