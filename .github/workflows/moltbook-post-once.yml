@@ -30,7 +30,7 @@ jobs:
     steps:
       - name: Post to Moltbook
         env:
-          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_OPUS_API_KEY }}
+          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
           MOLTBOOK_MODE: ${{ inputs.mode }}
           MOLTBOOK_SUBMOLT: ${{ inputs.submolt }}
           MOLTBOOK_TITLE: ${{ inputs.title }}
