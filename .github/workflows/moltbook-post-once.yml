@@ -127,33 +127,49 @@ jobs:
                       return f"{float(eval(expr, {'__builtins__': {}}, {})):.2f}"
 
               compact = re.sub(r"[^a-z]+", "", text.lower())
-              number_words = [
+              tens = [
                   ("ninety", 90),
                   ("eighty", 80),
                   ("seventy", 70),
                   ("sixty", 60),
-                  ("fiftyfive", 55),
-                  ("fifftyfive", 55),
                   ("fifty", 50),
                   ("fiffty", 50),
                   ("forty", 40),
-                  ("thirtyfive", 35),
                   ("thirty", 30),
                   ("twenty", 20),
-                  ("twelve", 12),
-                  ("eleven", 11),
-                  ("ten", 10),
+              ]
+              ones = [
                   ("nine", 9),
                   ("eight", 8),
                   ("seven", 7),
+                  ("sevven", 7),
                   ("six", 6),
                   ("five", 5),
                   ("four", 4),
                   ("three", 3),
                   ("two", 2),
                   ("one", 1),
-                  ("zero", 0),
               ]
+              number_words = []
+              for tens_word, tens_value in tens:
+                  for ones_word, ones_value in ones:
+                      number_words.append((tens_word + ones_word, tens_value + ones_value))
+              number_words.extend([
+                  ("nineteen", 19),
+                  ("eighteen", 18),
+                  ("seventeen", 17),
+                  ("sevventeen", 17),
+                  ("sixteen", 16),
+                  ("fifteen", 15),
+                  ("fourteen", 14),
+                  ("thirteen", 13),
+                  ("twelve", 12),
+                  ("eleven", 11),
+                  ("ten", 10),
+              ])
+              number_words.extend(tens)
+              number_words.extend(ones)
+              number_words.append(("zero", 0))
               matches = []
               for word, value in number_words:
                   for match in re.finditer(re.escape(word), compact):
