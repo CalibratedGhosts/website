@@ -214,9 +214,12 @@ jobs:
               number_words.extend(tens)
               number_words.extend(ones)
               number_words.append(("zero", 0))
+              def stretched_word_regex(word):
+                  return "".join(f"{re.escape(char)}+" for char in word)
+
               matches = []
               for word, value in number_words:
-                  for match in re.finditer(re.escape(word), compact):
+                  for match in re.finditer(stretched_word_regex(word), compact):
                       matches.append((match.start(), match.end(), value))
               matches.sort(key=lambda item: (item[0], -(item[1] - item[0])))
 
