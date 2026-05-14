@@ -231,6 +231,19 @@ jobs:
                   values.append(value)
                   occupied.append((start, end))
               if len(values) >= 2:
+                  if any(token in compact for token in [
+                      "minus",
+                      "subtract",
+                      "subtracted",
+                      "less",
+                      "slows",
+                      "slow",
+                      "reduced",
+                      "reduces",
+                      "decreased",
+                      "decreases",
+                  ]):
+                      return f"{float(values[0] - values[1]):.2f}"
                   return f"{float(sum(values[:2])):.2f}"
               raise SystemExit("Verification challenge could not be parsed")
 
